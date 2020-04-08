@@ -23,7 +23,7 @@
   25 0014 0700      		.word	7
   26 0016 0900      		.word	9
   27 0018 0A00      		.word	10
-  28 001a 6400      		.word	100
+  28 001a 6414      		.word	5220
   29 001c E100      		.word	225
   30 001e 1D00      		.word	29
   31 0020 1B00      		.word	27
@@ -79,7 +79,7 @@
   81 0084 2000      		.word	32
   82 0086 2100      		.word	33
   83 0088 2200      		.word	34
-  84 008a 0000      		.word	0
+  84 008a 2F00      		.word	47
   85 008c 0000      		.word	0
   86 008e 2300      		.word	35
   87 0090 2400      		.word	36
@@ -107,7 +107,7 @@
  109 00bc 2612      		.word	4646
  110 00be 2512      		.word	4645
  111 00c0 2414      		.word	5156
- 112 00c2 0000      		.word	0
+ 112 00c2 3400      		.word	52
  113 00c4 0000      		.word	0
  114 00c6 0000      		.word	0
  115 00c8 6402      		.word	612
@@ -128,7 +128,7 @@
  130 00e6 2014      		.word	5152
  131 00e8 2114      		.word	5153
  132 00ea 2214      		.word	5154
- 133 00ec 3100      		.word	49
+ 133 00ec 0000      		.word	0
  134 00ee 0000      		.word	0
  135 00f0 3A00      		.word	58
  136 00f2 3B00      		.word	59
@@ -305,11 +305,11 @@
  303               		.file 6 "tmk_core/common/action_util.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 keymap.c
-     /tmp/ccDLXwrz.s:2      *ABS*:000000000000003e __SP_H__
-     /tmp/ccDLXwrz.s:3      *ABS*:000000000000003d __SP_L__
-     /tmp/ccDLXwrz.s:4      *ABS*:000000000000003f __SREG__
-     /tmp/ccDLXwrz.s:5      *ABS*:0000000000000000 __tmp_reg__
-     /tmp/ccDLXwrz.s:6      *ABS*:0000000000000001 __zero_reg__
-     /tmp/ccDLXwrz.s:14     .progmem.data.keymaps:0000000000000000 keymaps
+     /tmp/ccc0Rhpu.s:2      *ABS*:000000000000003e __SP_H__
+     /tmp/ccc0Rhpu.s:3      *ABS*:000000000000003d __SP_L__
+     /tmp/ccc0Rhpu.s:4      *ABS*:000000000000003f __SREG__
+     /tmp/ccc0Rhpu.s:5      *ABS*:0000000000000000 __tmp_reg__
+     /tmp/ccc0Rhpu.s:6      *ABS*:0000000000000001 __zero_reg__
+     /tmp/ccc0Rhpu.s:14     .progmem.data.keymaps:0000000000000000 keymaps
 
 NO UNDEFINED SYMBOLS
