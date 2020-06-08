@@ -1,1 +1,0 @@
--Wl,--gc-sections -Wl,-Map=.build/ergodash_mini_niko.map,--cref     -lm 
