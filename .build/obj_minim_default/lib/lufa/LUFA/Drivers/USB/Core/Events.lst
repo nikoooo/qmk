@@ -48,90 +48,105 @@
   34:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** 
   35:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** void USB_Event_Stub(void)
   36:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** {
-  16               		.loc 1 36 0
+  16               		.loc 1 36 1 view -0
   17               		.cfi_startproc
   18               	/* prologue: function */
   19               	/* frame size = 0 */
   20               	/* stack size = 0 */
   21               	.L__stack_usage = 0
-  22 0000 0895      		ret
-  23               		.cfi_endproc
-  24               	.LFE16:
-  26               		.weak	EVENT_USB_Device_StartOfFrame
-  27               		.set	EVENT_USB_Device_StartOfFrame,USB_Event_Stub
-  28               		.weak	EVENT_USB_Device_Reset
-  29               		.set	EVENT_USB_Device_Reset,USB_Event_Stub
-  30               		.weak	EVENT_USB_Device_WakeUp
-  31               		.set	EVENT_USB_Device_WakeUp,USB_Event_Stub
-  32               		.weak	EVENT_USB_Device_Suspend
-  33               		.set	EVENT_USB_Device_Suspend,USB_Event_Stub
-  34               		.weak	EVENT_USB_Device_ConfigurationChanged
-  35               		.set	EVENT_USB_Device_ConfigurationChanged,USB_Event_Stub
-  36               		.weak	EVENT_USB_Device_ControlRequest
-  37               		.set	EVENT_USB_Device_ControlRequest,USB_Event_Stub
-  38               		.weak	EVENT_USB_Device_Disconnect
-  39               		.set	EVENT_USB_Device_Disconnect,USB_Event_Stub
-  40               		.weak	EVENT_USB_Device_Connect
-  41               		.set	EVENT_USB_Device_Connect,USB_Event_Stub
-  42               		.section	.text.USB_Event_Stub_2,"ax",@progbits
-  43               	.global	USB_Event_Stub_2
-  45               	USB_Event_Stub_2:
-  46               	.LFB17:
   37:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** 
   38:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** }
+  22               		.loc 1 38 1 view .LVU1
+  23               	/* epilogue start */
+  24 0000 0895      		ret
+  25               		.cfi_endproc
+  26               	.LFE16:
+  28               		.weak	EVENT_USB_Device_StartOfFrame
+  29               		.set	EVENT_USB_Device_StartOfFrame,USB_Event_Stub
+  30               		.weak	EVENT_USB_Device_Reset
+  31               		.set	EVENT_USB_Device_Reset,USB_Event_Stub
+  32               		.weak	EVENT_USB_Device_WakeUp
+  33               		.set	EVENT_USB_Device_WakeUp,USB_Event_Stub
+  34               		.weak	EVENT_USB_Device_Suspend
+  35               		.set	EVENT_USB_Device_Suspend,USB_Event_Stub
+  36               		.weak	EVENT_USB_Device_ConfigurationChanged
+  37               		.set	EVENT_USB_Device_ConfigurationChanged,USB_Event_Stub
+  38               		.weak	EVENT_USB_Device_ControlRequest
+  39               		.set	EVENT_USB_Device_ControlRequest,USB_Event_Stub
+  40               		.weak	EVENT_USB_Device_Disconnect
+  41               		.set	EVENT_USB_Device_Disconnect,USB_Event_Stub
+  42               		.weak	EVENT_USB_Device_Connect
+  43               		.set	EVENT_USB_Device_Connect,USB_Event_Stub
+  44               		.section	.text.USB_Event_Stub_2,"ax",@progbits
+  45               	.global	USB_Event_Stub_2
+  47               	USB_Event_Stub_2:
+  48               	.LVL0:
+  49               	.LFB17:
   39:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** 
   40:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** void USB_Event_Stub_2(const uint8_t _1)
   41:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** {
-  47               		.loc 1 41 0
-  48               		.cfi_startproc
-  49               	.LVL0:
-  50               	/* prologue: function */
-  51               	/* frame size = 0 */
-  52               	/* stack size = 0 */
-  53               	.L__stack_usage = 0
-  54 0000 0895      		ret
-  55               		.cfi_endproc
-  56               	.LFE17:
-  58               		.section	.text.USB_Event_Stub_3,"ax",@progbits
-  59               	.global	USB_Event_Stub_3
-  61               	USB_Event_Stub_3:
-  62               	.LFB18:
+  50               		.loc 1 41 1 view -0
+  51               		.cfi_startproc
+  52               	/* prologue: function */
+  53               	/* frame size = 0 */
+  54               	/* stack size = 0 */
+  55               	.L__stack_usage = 0
   42:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** 	(void)_1;
+  56               		.loc 1 42 2 view .LVU3
   43:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** 	USB_Event_Stub();
+  57               		.loc 1 43 2 view .LVU4
+  58               	/* epilogue start */
   44:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** }
+  59               		.loc 1 44 1 is_stmt 0 view .LVU5
+  60 0000 0895      		ret
+  61               		.cfi_endproc
+  62               	.LFE17:
+  64               		.section	.text.USB_Event_Stub_3,"ax",@progbits
+  65               	.global	USB_Event_Stub_3
+  67               	USB_Event_Stub_3:
+  68               	.LVL1:
+  69               	.LFB18:
   45:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** 
   46:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** void USB_Event_Stub_3(const uint8_t _1, const uint8_t _2)
   47:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** {
-  63               		.loc 1 47 0
-  64               		.cfi_startproc
-  65               	.LVL1:
-  66               	/* prologue: function */
-  67               	/* frame size = 0 */
-  68               	/* stack size = 0 */
-  69               	.L__stack_usage = 0
-  70 0000 0895      		ret
-  71               		.cfi_endproc
-  72               	.LFE18:
-  74               		.text
-  75               	.Letext0:
-  76               		.file 2 "/usr/lib/avr/include/stdint.h"
+  70               		.loc 1 47 1 is_stmt 1 view -0
+  71               		.cfi_startproc
+  72               	/* prologue: function */
+  73               	/* frame size = 0 */
+  74               	/* stack size = 0 */
+  75               	.L__stack_usage = 0
+  48:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** 	(void)_1;
+  76               		.loc 1 48 2 view .LVU7
+  49:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** 	(void)_2;
+  77               		.loc 1 49 2 view .LVU8
+  50:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** 	USB_Event_Stub();
+  78               		.loc 1 50 2 view .LVU9
+  79               	/* epilogue start */
+  51:lib/lufa/LUFA/Drivers/USB/Core/Events.c **** }
+  80               		.loc 1 51 1 is_stmt 0 view .LVU10
+  81 0000 0895      		ret
+  82               		.cfi_endproc
+  83               	.LFE18:
+  85               		.text
+  86               	.Letext0:
+  87               		.file 2 "/usr/local/Cellar/avr-gcc@8/8.4.0/avr/include/stdint.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 Events.c
-     /tmp/ccIJzxFb.s:2      *ABS*:000000000000003e __SP_H__
-     /tmp/ccIJzxFb.s:3      *ABS*:000000000000003d __SP_L__
-     /tmp/ccIJzxFb.s:4      *ABS*:000000000000003f __SREG__
-     /tmp/ccIJzxFb.s:5      *ABS*:0000000000000000 __tmp_reg__
-     /tmp/ccIJzxFb.s:6      *ABS*:0000000000000001 __zero_reg__
-     /tmp/ccIJzxFb.s:13     .text.USB_Event_Stub:0000000000000000 USB_Event_Stub
-     /tmp/ccIJzxFb.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_StartOfFrame
-     /tmp/ccIJzxFb.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Reset
-     /tmp/ccIJzxFb.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_WakeUp
-     /tmp/ccIJzxFb.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Suspend
-     /tmp/ccIJzxFb.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_ConfigurationChanged
-     /tmp/ccIJzxFb.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_ControlRequest
-     /tmp/ccIJzxFb.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Disconnect
-     /tmp/ccIJzxFb.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Connect
-     /tmp/ccIJzxFb.s:45     .text.USB_Event_Stub_2:0000000000000000 USB_Event_Stub_2
-     /tmp/ccIJzxFb.s:61     .text.USB_Event_Stub_3:0000000000000000 USB_Event_Stub_3
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:2      *ABS*:000000000000003e __SP_H__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:3      *ABS*:000000000000003d __SP_L__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:4      *ABS*:000000000000003f __SREG__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:5      *ABS*:0000000000000000 __tmp_reg__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:6      *ABS*:0000000000000001 __zero_reg__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:13     .text.USB_Event_Stub:0000000000000000 USB_Event_Stub
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_StartOfFrame
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Reset
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_WakeUp
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Suspend
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_ConfigurationChanged
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_ControlRequest
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Disconnect
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:13     .text.USB_Event_Stub:0000000000000000 EVENT_USB_Device_Connect
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:47     .text.USB_Event_Stub_2:0000000000000000 USB_Event_Stub_2
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQdTspt.s:67     .text.USB_Event_Stub_3:0000000000000000 USB_Event_Stub_3
 
 NO UNDEFINED SYMBOLS

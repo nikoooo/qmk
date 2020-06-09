@@ -8,15 +8,26 @@
    8               	.Ltext0:
    9               		.cfi_sections	.debug_frame
   10               	.Letext0:
-  11               		.file 1 "tmk_core/common/report.h"
-  12               		.file 2 "/usr/lib/avr/include/stdint.h"
-  13               		.file 3 "tmk_core/common/action_util.h"
+  11               		.file 1 "/usr/local/Cellar/avr-gcc@8/8.4.0/avr/include/stdint.h"
+  12               		.file 2 "/usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/include/stddef.h"
+  13               		.file 3 "tmk_core/common/report.h"
+  14               		.file 4 "tmk_core/common/action.h"
+  15               		.file 5 "tmk_core/common/host.h"
+  16               		.file 6 "tmk_core/common/avr/xprintf.h"
+  17               		.file 7 "tmk_core/common/debug.h"
+  18               		.file 8 "quantum/keycode_config.h"
+  19               		.file 9 "quantum/keymap.h"
+  20               		.file 10 "tmk_core/common/action_layer.h"
+  21               		.file 11 "tmk_core/common/timer.h"
+  22               		.file 12 "tmk_core/common/action_util.h"
+  23               		.file 13 "/usr/local/Cellar/avr-gcc@8/8.4.0/avr/include/stdlib.h"
+  24               		.file 14 "quantum/quantum.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 minim.c
-     /tmp/ccozaNx6.s:2      *ABS*:000000000000003e __SP_H__
-     /tmp/ccozaNx6.s:3      *ABS*:000000000000003d __SP_L__
-     /tmp/ccozaNx6.s:4      *ABS*:000000000000003f __SREG__
-     /tmp/ccozaNx6.s:5      *ABS*:0000000000000000 __tmp_reg__
-     /tmp/ccozaNx6.s:6      *ABS*:0000000000000001 __zero_reg__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccGyuVZd.s:2      *ABS*:000000000000003e __SP_H__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccGyuVZd.s:3      *ABS*:000000000000003d __SP_L__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccGyuVZd.s:4      *ABS*:000000000000003f __SREG__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccGyuVZd.s:5      *ABS*:0000000000000000 __tmp_reg__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccGyuVZd.s:6      *ABS*:0000000000000001 __zero_reg__
 
 NO UNDEFINED SYMBOLS

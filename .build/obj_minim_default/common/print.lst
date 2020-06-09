@@ -10,8 +10,9 @@
   10               		.section	.text.print_set_sendchar,"ax",@progbits
   11               	.global	print_set_sendchar
   13               	print_set_sendchar:
-  14               	.LFB1:
-  15               		.file 1 "tmk_core/common/print.c"
+  14               	.LVL0:
+  15               	.LFB1:
+  16               		.file 1 "tmk_core/common/print.c"
    1:tmk_core/common/print.c **** /* Copyright 2012,2013 Jun Wako <wakojun@gmail.com> */
    2:tmk_core/common/print.c **** /* Very basic print functions, intended to be used with usb_debug_only.c
    3:tmk_core/common/print.c ****  * http://www.pjrc.com/teensy/
@@ -46,31 +47,32 @@
   32:tmk_core/common/print.c **** #        define sendchar(c) xputc(c)
   33:tmk_core/common/print.c **** 
   34:tmk_core/common/print.c **** void print_set_sendchar(int8_t (*sendchar_func)(uint8_t)) { xdev_out(sendchar_func); }
-  16               		.loc 1 34 0
-  17               		.cfi_startproc
-  18               	.LVL0:
+  17               		.loc 1 34 59 view -0
+  18               		.cfi_startproc
   19               	/* prologue: function */
   20               	/* frame size = 0 */
   21               	/* stack size = 0 */
   22               	.L__stack_usage = 0
-  23               		.loc 1 34 0
+  23               		.loc 1 34 61 view .LVU1
   24 0000 9093 0000 		sts xfunc_out+1,r25
   25 0004 8093 0000 		sts xfunc_out,r24
-  26 0008 0895      		ret
-  27               		.cfi_endproc
-  28               	.LFE1:
-  30               		.text
-  31               	.Letext0:
-  32               		.file 2 "/usr/lib/avr/include/stdint.h"
-  33               		.file 3 "tmk_core/common/avr/xprintf.h"
+  26               	/* epilogue start */
+  27               		.loc 1 34 1 is_stmt 0 view .LVU2
+  28 0008 0895      		ret
+  29               		.cfi_endproc
+  30               	.LFE1:
+  32               		.text
+  33               	.Letext0:
+  34               		.file 2 "/usr/local/Cellar/avr-gcc@8/8.4.0/avr/include/stdint.h"
+  35               		.file 3 "tmk_core/common/avr/xprintf.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 print.c
-     /tmp/ccA1pBE6.s:2      *ABS*:000000000000003e __SP_H__
-     /tmp/ccA1pBE6.s:3      *ABS*:000000000000003d __SP_L__
-     /tmp/ccA1pBE6.s:4      *ABS*:000000000000003f __SREG__
-     /tmp/ccA1pBE6.s:5      *ABS*:0000000000000000 __tmp_reg__
-     /tmp/ccA1pBE6.s:6      *ABS*:0000000000000001 __zero_reg__
-     /tmp/ccA1pBE6.s:13     .text.print_set_sendchar:0000000000000000 print_set_sendchar
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccCrMOWI.s:2      *ABS*:000000000000003e __SP_H__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccCrMOWI.s:3      *ABS*:000000000000003d __SP_L__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccCrMOWI.s:4      *ABS*:000000000000003f __SREG__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccCrMOWI.s:5      *ABS*:0000000000000000 __tmp_reg__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccCrMOWI.s:6      *ABS*:0000000000000001 __zero_reg__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccCrMOWI.s:13     .text.print_set_sendchar:0000000000000000 print_set_sendchar
 
 UNDEFINED SYMBOLS
 xfunc_out
