@@ -939,7 +939,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000     0x59a8
+.text           0x0000000000000000     0x5a10
  *(.vectors)
  .vectors       0x0000000000000000       0x74 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
                 0x0000000000000000                __vectors
@@ -956,371 +956,371 @@ END GROUP
  *libc.a:*(.progmem.data)
  *(.progmem.*)
  .progmem.data.keymaps
-                0x0000000000000074      0x208 .build/obj_minim_default/keyboards/minim/keymaps/default/keymap.o
+                0x0000000000000074      0x270 .build/obj_minim_default/keyboards/minim/keymaps/default/keymap.o
                 0x0000000000000074                keymaps
  .progmem.data.__c.3446
-                0x000000000000027c       0x12 .build/obj_minim_default/quantum/quantum.o
+                0x00000000000002e4       0x12 .build/obj_minim_default/quantum/quantum.o
  .progmem.data.__c.3444
-                0x000000000000028e       0x11 .build/obj_minim_default/quantum/quantum.o
+                0x00000000000002f6       0x11 .build/obj_minim_default/quantum/quantum.o
  .progmem.data.fn_actions
-                0x000000000000029f        0x0 .build/obj_minim_default/quantum/keymap_common.o
-                0x000000000000029f                fn_actions
+                0x0000000000000307        0x0 .build/obj_minim_default/quantum/keymap_common.o
+                0x0000000000000307                fn_actions
  .progmem.data.__c.3410
-                0x000000000000029f        0x2 .build/obj_minim_default/quantum/matrix.o
+                0x0000000000000307        0x2 .build/obj_minim_default/quantum/matrix.o
  .progmem.data.__c.3408
-                0x00000000000002a1        0x6 .build/obj_minim_default/quantum/matrix.o
+                0x0000000000000309        0x6 .build/obj_minim_default/quantum/matrix.o
  .progmem.data.__c.3406
-                0x00000000000002a7        0x3 .build/obj_minim_default/quantum/matrix.o
+                0x000000000000030f        0x3 .build/obj_minim_default/quantum/matrix.o
  .progmem.data.__c.3404
-                0x00000000000002aa        0x5 .build/obj_minim_default/quantum/matrix.o
+                0x0000000000000312        0x5 .build/obj_minim_default/quantum/matrix.o
  .progmem.data.__c.3401
-                0x00000000000002af       0x17 .build/obj_minim_default/quantum/matrix.o
+                0x0000000000000317       0x17 .build/obj_minim_default/quantum/matrix.o
  .progmem.data.__c.2111
-                0x00000000000002c6        0x2 .build/obj_minim_default/common/host.o
+                0x000000000000032e        0x2 .build/obj_minim_default/common/host.o
  .progmem.data.__c.2106
-                0x00000000000002c8        0x6 .build/obj_minim_default/common/host.o
+                0x0000000000000330        0x6 .build/obj_minim_default/common/host.o
  .progmem.data.__c.2103
-                0x00000000000002ce       0x12 .build/obj_minim_default/common/host.o
+                0x0000000000000336       0x12 .build/obj_minim_default/common/host.o
  .progmem.data.__c.2943
-                0x00000000000002e0        0x2 .build/obj_minim_default/common/keyboard.o
+                0x0000000000000348        0x2 .build/obj_minim_default/common/keyboard.o
  .progmem.data.__c.2941
-                0x00000000000002e2        0x5 .build/obj_minim_default/common/keyboard.o
+                0x000000000000034a        0x5 .build/obj_minim_default/common/keyboard.o
  .progmem.data.__c.2939
-                0x00000000000002e7       0x13 .build/obj_minim_default/common/keyboard.o
+                0x000000000000034f       0x13 .build/obj_minim_default/common/keyboard.o
  .progmem.data.__c.2191
-                0x00000000000002fa        0x3 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000362        0x3 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2189
-                0x00000000000002fd        0x3 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000365        0x3 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2187
-                0x0000000000000300        0x2 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000368        0x2 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2185
-                0x0000000000000302        0x3 .build/obj_minim_default/common/mousekey.o
+                0x000000000000036a        0x3 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2183
-                0x0000000000000305        0x3 .build/obj_minim_default/common/mousekey.o
+                0x000000000000036d        0x3 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2181
-                0x0000000000000308        0x3 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000370        0x3 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2179
-                0x000000000000030b        0x2 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000373        0x2 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2177
-                0x000000000000030d        0x3 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000375        0x3 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2175
-                0x0000000000000310        0x2 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000378        0x2 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2173
-                0x0000000000000312        0x3 .build/obj_minim_default/common/mousekey.o
+                0x000000000000037a        0x3 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2171
-                0x0000000000000315        0x2 .build/obj_minim_default/common/mousekey.o
+                0x000000000000037d        0x2 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2169
-                0x0000000000000317        0x3 .build/obj_minim_default/common/mousekey.o
+                0x000000000000037f        0x3 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2167
-                0x000000000000031a        0x2 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000382        0x2 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2165
-                0x000000000000031c        0x5 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000384        0x5 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.2163
-                0x0000000000000321       0x23 .build/obj_minim_default/common/mousekey.o
+                0x0000000000000389       0x23 .build/obj_minim_default/common/mousekey.o
  .progmem.data.__c.3716
-                0x0000000000000344       0x1b .build/obj_minim_default/common/command.o
+                0x00000000000003ac       0x1b .build/obj_minim_default/common/command.o
  .progmem.data.__c.3713
-                0x000000000000035f       0x19 .build/obj_minim_default/common/command.o
+                0x00000000000003c7       0x19 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3710
-                0x0000000000000378       0x15 .build/obj_minim_default/common/command.o
+                0x00000000000003e0       0x15 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3707
-                0x000000000000038d       0x13 .build/obj_minim_default/common/command.o
+                0x00000000000003f5       0x13 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3704
-                0x00000000000003a0       0x12 .build/obj_minim_default/common/command.o
+                0x0000000000000408       0x12 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3700
-                0x00000000000003b2        0xf .build/obj_minim_default/common/command.o
+                0x000000000000041a        0xf .build/obj_minim_default/common/command.o
  .progmem.data.__c.3693
-                0x00000000000003c1       0x1b .build/obj_minim_default/common/command.o
+                0x0000000000000429       0x1b .build/obj_minim_default/common/command.o
  .progmem.data.__c.3690
-                0x00000000000003dc       0x19 .build/obj_minim_default/common/command.o
+                0x0000000000000444       0x19 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3687
-                0x00000000000003f5       0x15 .build/obj_minim_default/common/command.o
+                0x000000000000045d       0x15 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3684
-                0x000000000000040a       0x13 .build/obj_minim_default/common/command.o
+                0x0000000000000472       0x13 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3681
-                0x000000000000041d       0x12 .build/obj_minim_default/common/command.o
+                0x0000000000000485       0x12 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3677
-                0x000000000000042f        0xf .build/obj_minim_default/common/command.o
+                0x0000000000000497        0xf .build/obj_minim_default/common/command.o
  .progmem.data.__c.3670
-                0x000000000000043e        0x2 .build/obj_minim_default/common/command.o
+                0x00000000000004a6        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3668
-                0x0000000000000440        0x3 .build/obj_minim_default/common/command.o
+                0x00000000000004a8        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3666
-                0x0000000000000443       0x17 .build/obj_minim_default/common/command.o
+                0x00000000000004ab       0x17 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3664
-                0x000000000000045a        0x2 .build/obj_minim_default/common/command.o
+                0x00000000000004c2        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3662
-                0x000000000000045c        0x3 .build/obj_minim_default/common/command.o
+                0x00000000000004c4        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3660
-                0x000000000000045f       0x15 .build/obj_minim_default/common/command.o
+                0x00000000000004c7       0x15 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3658
-                0x0000000000000474        0x2 .build/obj_minim_default/common/command.o
+                0x00000000000004dc        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3656
-                0x0000000000000476        0x3 .build/obj_minim_default/common/command.o
+                0x00000000000004de        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3654
-                0x0000000000000479       0x11 .build/obj_minim_default/common/command.o
+                0x00000000000004e1       0x11 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3652
-                0x000000000000048a        0x2 .build/obj_minim_default/common/command.o
+                0x00000000000004f2        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3650
-                0x000000000000048c        0x3 .build/obj_minim_default/common/command.o
+                0x00000000000004f4        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3648
-                0x000000000000048f        0xf .build/obj_minim_default/common/command.o
+                0x00000000000004f7        0xf .build/obj_minim_default/common/command.o
  .progmem.data.__c.3646
-                0x000000000000049e        0x2 .build/obj_minim_default/common/command.o
+                0x0000000000000506        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3644
-                0x00000000000004a0        0x3 .build/obj_minim_default/common/command.o
+                0x0000000000000508        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3642
-                0x00000000000004a3       0x12 .build/obj_minim_default/common/command.o
+                0x000000000000050b       0x12 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3640
-                0x00000000000004b5        0x2 .build/obj_minim_default/common/command.o
+                0x000000000000051d        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3638
-                0x00000000000004b7        0x3 .build/obj_minim_default/common/command.o
+                0x000000000000051f        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3636
-                0x00000000000004ba       0x12 .build/obj_minim_default/common/command.o
+                0x0000000000000522       0x12 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3634
-                0x00000000000004cc        0xe .build/obj_minim_default/common/command.o
+                0x0000000000000534        0xe .build/obj_minim_default/common/command.o
  .progmem.data.__c.3754
-                0x00000000000004da        0x3 .build/obj_minim_default/common/command.o
+                0x0000000000000542        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3752
-                0x00000000000004dd        0x6 .build/obj_minim_default/common/command.o
+                0x0000000000000545        0x6 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3750
-                0x00000000000004e3        0x2 .build/obj_minim_default/common/command.o
+                0x000000000000054b        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3747
-                0x00000000000004e5        0xd .build/obj_minim_default/common/command.o
+                0x000000000000054d        0xd .build/obj_minim_default/common/command.o
  .progmem.data.__c.3733
-                0x00000000000004f2        0x4 .build/obj_minim_default/common/command.o
+                0x000000000000055a        0x4 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3723
-                0x00000000000004f6       0x4e .build/obj_minim_default/common/command.o
+                0x000000000000055e       0x4e .build/obj_minim_default/common/command.o
  .progmem.data.__c.3721
-                0x0000000000000544       0xfb .build/obj_minim_default/common/command.o
+                0x00000000000005ac       0xfb .build/obj_minim_default/common/command.o
  .progmem.data.__c.3626
-                0x000000000000063f        0x2 .build/obj_minim_default/common/command.o
+                0x00000000000006a7        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3623
-                0x0000000000000641        0x4 .build/obj_minim_default/common/command.o
+                0x00000000000006a9        0x4 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3628
-                0x0000000000000645        0x4 .build/obj_minim_default/common/command.o
+                0x00000000000006ad        0x4 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3772
-                0x0000000000000649        0x5 .build/obj_minim_default/common/command.o
+                0x00000000000006b1        0x5 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3451
-                0x000000000000064e       0x17 .build/obj_minim_default/common/command.o
+                0x00000000000006b6       0x17 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3449
-                0x0000000000000665       0x13 .build/obj_minim_default/common/command.o
+                0x00000000000006cd       0x13 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3447
-                0x0000000000000678       0x17 .build/obj_minim_default/common/command.o
+                0x00000000000006e0       0x17 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3445
-                0x000000000000068f       0x1a .build/obj_minim_default/common/command.o
+                0x00000000000006f7       0x1a .build/obj_minim_default/common/command.o
  .progmem.data.__c.3443
-                0x00000000000006a9        0xe .build/obj_minim_default/common/command.o
+                0x0000000000000711        0xe .build/obj_minim_default/common/command.o
  .progmem.data.__c.3438
-                0x00000000000006b7       0x2c .build/obj_minim_default/common/command.o
+                0x000000000000071f       0x2c .build/obj_minim_default/common/command.o
  .progmem.data.__c.3436
-                0x00000000000006e3       0x36 .build/obj_minim_default/common/command.o
+                0x000000000000074b       0x36 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3434
-                0x0000000000000719       0x2e .build/obj_minim_default/common/command.o
+                0x0000000000000781       0x2e .build/obj_minim_default/common/command.o
  .progmem.data.__c.3432
-                0x0000000000000747       0x33 .build/obj_minim_default/common/command.o
+                0x00000000000007af       0x33 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3430
-                0x000000000000077a       0x19 .build/obj_minim_default/common/command.o
+                0x00000000000007e2       0x19 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3428
-                0x0000000000000793        0xf .build/obj_minim_default/common/command.o
+                0x00000000000007fb        0xf .build/obj_minim_default/common/command.o
  .progmem.data.__c.3612
-                0x00000000000007a2       0x27 .build/obj_minim_default/common/command.o
+                0x000000000000080a       0x27 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3423
-                0x00000000000007c9      0x1a3 .build/obj_minim_default/common/command.o
+                0x0000000000000831      0x1a3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3558
-                0x000000000000096c        0x2 .build/obj_minim_default/common/command.o
+                0x00000000000009d4        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3556
-                0x000000000000096e        0x3 .build/obj_minim_default/common/command.o
+                0x00000000000009d6        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3554
-                0x0000000000000971        0x8 .build/obj_minim_default/common/command.o
+                0x00000000000009d9        0x8 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3552
-                0x0000000000000979        0x2 .build/obj_minim_default/common/command.o
+                0x00000000000009e1        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3550
-                0x000000000000097b        0x3 .build/obj_minim_default/common/command.o
+                0x00000000000009e3        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3548
-                0x000000000000097e       0x1c .build/obj_minim_default/common/command.o
+                0x00000000000009e6       0x1c .build/obj_minim_default/common/command.o
  .progmem.data.__c.3546
-                0x000000000000099a        0x2 .build/obj_minim_default/common/command.o
+                0x0000000000000a02        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3544
-                0x000000000000099c        0x3 .build/obj_minim_default/common/command.o
+                0x0000000000000a04        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3542
-                0x000000000000099f       0x12 .build/obj_minim_default/common/command.o
+                0x0000000000000a07       0x12 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3540
-                0x00000000000009b1        0x2 .build/obj_minim_default/common/command.o
+                0x0000000000000a19        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3538
-                0x00000000000009b3        0x3 .build/obj_minim_default/common/command.o
+                0x0000000000000a1b        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3536
-                0x00000000000009b6        0xa .build/obj_minim_default/common/command.o
+                0x0000000000000a1e        0xa .build/obj_minim_default/common/command.o
  .progmem.data.__c.3534
-                0x00000000000009c0        0x2 .build/obj_minim_default/common/command.o
+                0x0000000000000a28        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3532
-                0x00000000000009c2        0x3 .build/obj_minim_default/common/command.o
+                0x0000000000000a2a        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3530
-                0x00000000000009c5       0x12 .build/obj_minim_default/common/command.o
+                0x0000000000000a2d       0x12 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3528
-                0x00000000000009d7        0x2 .build/obj_minim_default/common/command.o
+                0x0000000000000a3f        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3526
-                0x00000000000009d9        0x3 .build/obj_minim_default/common/command.o
+                0x0000000000000a41        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3524
-                0x00000000000009dc       0x12 .build/obj_minim_default/common/command.o
+                0x0000000000000a44       0x12 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3522
-                0x00000000000009ee        0x2 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3520
-                0x00000000000009f0        0x3 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3518
-                0x00000000000009f3       0x12 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3516
-                0x0000000000000a05        0x2 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3514
-                0x0000000000000a07        0x3 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3512
-                0x0000000000000a0a       0x12 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3510
-                0x0000000000000a1c        0x2 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3508
-                0x0000000000000a1e        0x3 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3506
-                0x0000000000000a21       0x17 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3504
-                0x0000000000000a38        0x2 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3502
-                0x0000000000000a3a        0x3 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3500
-                0x0000000000000a3d       0x19 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3498
                 0x0000000000000a56        0x2 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3520
+                0x0000000000000a58        0x3 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3518
+                0x0000000000000a5b       0x12 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3516
+                0x0000000000000a6d        0x2 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3514
+                0x0000000000000a6f        0x3 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3512
+                0x0000000000000a72       0x12 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3510
+                0x0000000000000a84        0x2 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3508
+                0x0000000000000a86        0x3 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3506
+                0x0000000000000a89       0x17 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3504
+                0x0000000000000aa0        0x2 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3502
+                0x0000000000000aa2        0x3 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3500
+                0x0000000000000aa5       0x19 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3498
+                0x0000000000000abe        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3496
-                0x0000000000000a58        0x5 .build/obj_minim_default/common/command.o
+                0x0000000000000ac0        0x5 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3494
-                0x0000000000000a5d       0x14 .build/obj_minim_default/common/command.o
+                0x0000000000000ac5       0x14 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3491
-                0x0000000000000a71        0x2 .build/obj_minim_default/common/command.o
+                0x0000000000000ad9        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3489
-                0x0000000000000a73        0x3 .build/obj_minim_default/common/command.o
+                0x0000000000000adb        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3487
-                0x0000000000000a76        0x9 .build/obj_minim_default/common/command.o
+                0x0000000000000ade        0x9 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3485
-                0x0000000000000a7f        0x2 .build/obj_minim_default/common/command.o
+                0x0000000000000ae7        0x2 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3483
-                0x0000000000000a81        0x3 .build/obj_minim_default/common/command.o
+                0x0000000000000ae9        0x3 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3481
-                0x0000000000000a84        0xc .build/obj_minim_default/common/command.o
- .progmem.data.__c.3479
-                0x0000000000000a90        0x2 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3477
-                0x0000000000000a92        0x3 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3475
-                0x0000000000000a95        0xa .build/obj_minim_default/common/command.o
- .progmem.data.__c.3473
-                0x0000000000000a9f        0x2 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3471
-                0x0000000000000aa1        0x3 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3469
-                0x0000000000000aa4        0xa .build/obj_minim_default/common/command.o
- .progmem.data.__c.3467
-                0x0000000000000aae        0x2 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3465
-                0x0000000000000ab0        0x5 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3463
-                0x0000000000000ab5       0x13 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3460
-                0x0000000000000ac8        0x2 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3458
-                0x0000000000000aca        0x3 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3456
-                0x0000000000000acd       0x10 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3607
-                0x0000000000000add        0x2 .build/obj_minim_default/common/command.o
- .progmem.data.__c.3597
-                0x0000000000000adf        0xd .build/obj_minim_default/common/command.o
- .progmem.data.__c.3595
                 0x0000000000000aec        0xc .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3479
+                0x0000000000000af8        0x2 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3477
+                0x0000000000000afa        0x3 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3475
+                0x0000000000000afd        0xa .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3473
+                0x0000000000000b07        0x2 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3471
+                0x0000000000000b09        0x3 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3469
+                0x0000000000000b0c        0xa .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3467
+                0x0000000000000b16        0x2 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3465
+                0x0000000000000b18        0x5 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3463
+                0x0000000000000b1d       0x13 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3460
+                0x0000000000000b30        0x2 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3458
+                0x0000000000000b32        0x3 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3456
+                0x0000000000000b35       0x10 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3607
+                0x0000000000000b45        0x2 .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3597
+                0x0000000000000b47        0xd .build/obj_minim_default/common/command.o
+ .progmem.data.__c.3595
+                0x0000000000000b54        0xc .build/obj_minim_default/common/command.o
  .progmem.data.__c.3592
-                0x0000000000000af8       0x10 .build/obj_minim_default/common/command.o
+                0x0000000000000b60       0x10 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3590
-                0x0000000000000b08        0xf .build/obj_minim_default/common/command.o
+                0x0000000000000b70        0xf .build/obj_minim_default/common/command.o
  .progmem.data.__c.3587
-                0x0000000000000b17        0xe .build/obj_minim_default/common/command.o
+                0x0000000000000b7f        0xe .build/obj_minim_default/common/command.o
  .progmem.data.__c.3585
-                0x0000000000000b25        0xd .build/obj_minim_default/common/command.o
+                0x0000000000000b8d        0xd .build/obj_minim_default/common/command.o
  .progmem.data.__c.3582
-                0x0000000000000b32        0xd .build/obj_minim_default/common/command.o
+                0x0000000000000b9a        0xd .build/obj_minim_default/common/command.o
  .progmem.data.__c.3580
-                0x0000000000000b3f        0xc .build/obj_minim_default/common/command.o
+                0x0000000000000ba7        0xc .build/obj_minim_default/common/command.o
  .progmem.data.__c.3577
-                0x0000000000000b4b       0x1c .build/obj_minim_default/common/command.o
+                0x0000000000000bb3       0x1c .build/obj_minim_default/common/command.o
  .progmem.data.__c.3573
-                0x0000000000000b67        0x4 .build/obj_minim_default/common/command.o
+                0x0000000000000bcf        0x4 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3568
-                0x0000000000000b6b       0x11 .build/obj_minim_default/common/command.o
+                0x0000000000000bd3       0x11 .build/obj_minim_default/common/command.o
  .progmem.data.__c.3564
-                0x0000000000000b7c        0xb .build/obj_minim_default/common/command.o
+                0x0000000000000be4        0xb .build/obj_minim_default/common/command.o
  .progmem.data.__c.6061
-                0x0000000000000b87        0x4 .build/obj_minim_default/lufa.o
+                0x0000000000000bef        0x4 .build/obj_minim_default/lufa.o
  .progmem.data.__c.6059
-                0x0000000000000b8b       0x11 .build/obj_minim_default/lufa.o
+                0x0000000000000bf3       0x11 .build/obj_minim_default/lufa.o
  .progmem.data.__c.5949
-                0x0000000000000b9c        0x4 .build/obj_minim_default/lufa.o
+                0x0000000000000c04        0x4 .build/obj_minim_default/lufa.o
  .progmem.data.__c.5945
-                0x0000000000000ba0        0x4 .build/obj_minim_default/lufa.o
+                0x0000000000000c08        0x4 .build/obj_minim_default/lufa.o
  .progmem.data.__c.5941
-                0x0000000000000ba4        0x4 .build/obj_minim_default/lufa.o
+                0x0000000000000c0c        0x4 .build/obj_minim_default/lufa.o
  .progmem.data.SerialNumberString
-                0x0000000000000ba8        0x6 .build/obj_minim_default/usb_descriptor.o
-                0x0000000000000ba8                SerialNumberString
+                0x0000000000000c10        0x6 .build/obj_minim_default/usb_descriptor.o
+                0x0000000000000c10                SerialNumberString
  .progmem.data.ProductString
-                0x0000000000000bae        0xe .build/obj_minim_default/usb_descriptor.o
-                0x0000000000000bae                ProductString
+                0x0000000000000c16        0xe .build/obj_minim_default/usb_descriptor.o
+                0x0000000000000c16                ProductString
  .progmem.data.ManufacturerString
-                0x0000000000000bbc        0xe .build/obj_minim_default/usb_descriptor.o
-                0x0000000000000bbc                ManufacturerString
+                0x0000000000000c24        0xe .build/obj_minim_default/usb_descriptor.o
+                0x0000000000000c24                ManufacturerString
  .progmem.data.LanguageString
-                0x0000000000000bca        0x4 .build/obj_minim_default/usb_descriptor.o
-                0x0000000000000bca                LanguageString
+                0x0000000000000c32        0x4 .build/obj_minim_default/usb_descriptor.o
+                0x0000000000000c32                LanguageString
  .progmem.data.ConfigurationDescriptor
-                0x0000000000000bce       0x5b .build/obj_minim_default/usb_descriptor.o
-                0x0000000000000bce                ConfigurationDescriptor
+                0x0000000000000c36       0x5b .build/obj_minim_default/usb_descriptor.o
+                0x0000000000000c36                ConfigurationDescriptor
  .progmem.data.DeviceDescriptor
-                0x0000000000000c29       0x12 .build/obj_minim_default/usb_descriptor.o
-                0x0000000000000c29                DeviceDescriptor
+                0x0000000000000c91       0x12 .build/obj_minim_default/usb_descriptor.o
+                0x0000000000000c91                DeviceDescriptor
  .progmem.data.ConsoleReport
-                0x0000000000000c3b       0x22 .build/obj_minim_default/usb_descriptor.o
-                0x0000000000000c3b                ConsoleReport
+                0x0000000000000ca3       0x22 .build/obj_minim_default/usb_descriptor.o
+                0x0000000000000ca3                ConsoleReport
  .progmem.data.SharedReport
-                0x0000000000000c5d       0x85 .build/obj_minim_default/usb_descriptor.o
-                0x0000000000000c5d                SharedReport
+                0x0000000000000cc5       0x85 .build/obj_minim_default/usb_descriptor.o
+                0x0000000000000cc5                SharedReport
  .progmem.data.KeyboardReport
-                0x0000000000000ce2       0x40 .build/obj_minim_default/usb_descriptor.o
-                0x0000000000000ce2                KeyboardReport
-                0x0000000000000d22                . = ALIGN (0x2)
+                0x0000000000000d4a       0x40 .build/obj_minim_default/usb_descriptor.o
+                0x0000000000000d4a                KeyboardReport
+                0x0000000000000d8a                . = ALIGN (0x2)
  *(.lowtext)
  *(.lowtext*)
-                0x0000000000000d22                __ctors_start = .
+                0x0000000000000d8a                __ctors_start = .
  *(.ctors)
-                0x0000000000000d22                __ctors_end = .
-                0x0000000000000d22                __dtors_start = .
+                0x0000000000000d8a                __ctors_end = .
+                0x0000000000000d8a                __dtors_start = .
  *(.dtors)
-                0x0000000000000d22                __dtors_end = .
+                0x0000000000000d8a                __dtors_end = .
  SORT_BY_NAME(*)(.ctors)
  SORT_BY_NAME(*)(.dtors)
  *(.init0)
- .init0         0x0000000000000d22        0x0 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
-                0x0000000000000d22                __init
+ .init0         0x0000000000000d8a        0x0 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
+                0x0000000000000d8a                __init
  *(.init0)
  *(.init1)
  *(.init1)
  *(.init2)
- .init2         0x0000000000000d22        0xc /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
+ .init2         0x0000000000000d8a        0xc /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
  *(.init2)
  *(.init3)
- .init3         0x0000000000000d2e       0x54 .build/obj_minim_default/common/avr/bootloader.o
-                0x0000000000000d2e                bootloader_jump_after_watchdog_reset
+ .init3         0x0000000000000d96       0x54 .build/obj_minim_default/common/avr/bootloader.o
+                0x0000000000000d96                bootloader_jump_after_watchdog_reset
  *(.init3)
  *(.init4)
- .init4         0x0000000000000d82       0x16 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_copy_data.o)
-                0x0000000000000d82                __do_copy_data
- .init4         0x0000000000000d98       0x10 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_clear_bss.o)
-                0x0000000000000d98                __do_clear_bss
+ .init4         0x0000000000000dea       0x16 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_copy_data.o)
+                0x0000000000000dea                __do_copy_data
+ .init4         0x0000000000000e00       0x10 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_clear_bss.o)
+                0x0000000000000e00                __do_clear_bss
  *(.init4)
  *(.init5)
  *(.init5)
@@ -1331,703 +1331,703 @@ END GROUP
  *(.init8)
  *(.init8)
  *(.init9)
- .init9         0x0000000000000da8        0x8 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
+ .init9         0x0000000000000e10        0x8 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
  *(.init9)
  *(.text)
- .text          0x0000000000000db0        0x4 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
-                0x0000000000000db0                __vector_20
-                0x0000000000000db0                __vector_28
-                0x0000000000000db0                __vector_1
-                0x0000000000000db0                __vector_24
-                0x0000000000000db0                __bad_interrupt
-                0x0000000000000db0                __vector_6
-                0x0000000000000db0                __vector_3
-                0x0000000000000db0                __vector_23
-                0x0000000000000db0                __vector_25
-                0x0000000000000db0                __vector_17
-                0x0000000000000db0                __vector_7
-                0x0000000000000db0                __vector_27
-                0x0000000000000db0                __vector_5
-                0x0000000000000db0                __vector_4
-                0x0000000000000db0                __vector_9
-                0x0000000000000db0                __vector_2
-                0x0000000000000db0                __vector_21
-                0x0000000000000db0                __vector_15
-                0x0000000000000db0                __vector_8
-                0x0000000000000db0                __vector_26
-                0x0000000000000db0                __vector_14
-                0x0000000000000db0                __vector_10
-                0x0000000000000db0                __vector_16
-                0x0000000000000db0                __vector_18
-                0x0000000000000db0                __vector_22
- .text          0x0000000000000db4      0x15c .build/obj_minim_default/common/avr/xprintf.o
-                0x0000000000000db4                xputc
-                0x0000000000000dcc                xputs
-                0x0000000000000dda                xitoa
-                0x0000000000000efe                __xprintf
-                0x0000000000000f10                . = ALIGN (0x2)
+ .text          0x0000000000000e18        0x4 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
+                0x0000000000000e18                __vector_20
+                0x0000000000000e18                __vector_28
+                0x0000000000000e18                __vector_1
+                0x0000000000000e18                __vector_24
+                0x0000000000000e18                __bad_interrupt
+                0x0000000000000e18                __vector_6
+                0x0000000000000e18                __vector_3
+                0x0000000000000e18                __vector_23
+                0x0000000000000e18                __vector_25
+                0x0000000000000e18                __vector_17
+                0x0000000000000e18                __vector_7
+                0x0000000000000e18                __vector_27
+                0x0000000000000e18                __vector_5
+                0x0000000000000e18                __vector_4
+                0x0000000000000e18                __vector_9
+                0x0000000000000e18                __vector_2
+                0x0000000000000e18                __vector_21
+                0x0000000000000e18                __vector_15
+                0x0000000000000e18                __vector_8
+                0x0000000000000e18                __vector_26
+                0x0000000000000e18                __vector_14
+                0x0000000000000e18                __vector_10
+                0x0000000000000e18                __vector_16
+                0x0000000000000e18                __vector_18
+                0x0000000000000e18                __vector_22
+ .text          0x0000000000000e1c      0x15c .build/obj_minim_default/common/avr/xprintf.o
+                0x0000000000000e1c                xputc
+                0x0000000000000e34                xputs
+                0x0000000000000e42                xitoa
+                0x0000000000000f66                __xprintf
+                0x0000000000000f78                . = ALIGN (0x2)
  *(.text.*)
  .text.matrix_init_user
-                0x0000000000000f10        0x2 .build/obj_minim_default/keyboards/minim/keymaps/default/keymap.o
-                0x0000000000000f10                matrix_init_user
+                0x0000000000000f78        0x2 .build/obj_minim_default/keyboards/minim/keymaps/default/keymap.o
+                0x0000000000000f78                matrix_init_user
  .text.matrix_scan_user
-                0x0000000000000f12        0x2 .build/obj_minim_default/keyboards/minim/keymaps/default/keymap.o
-                0x0000000000000f12                matrix_scan_user
+                0x0000000000000f7a        0x2 .build/obj_minim_default/keyboards/minim/keymaps/default/keymap.o
+                0x0000000000000f7a                matrix_scan_user
  .text.led_set_user
-                0x0000000000000f14        0x2 .build/obj_minim_default/keyboards/minim/keymaps/default/keymap.o
-                0x0000000000000f14                led_set_user
+                0x0000000000000f7c        0x2 .build/obj_minim_default/keyboards/minim/keymaps/default/keymap.o
+                0x0000000000000f7c                led_set_user
  .text.process_action_kb
-                0x0000000000000f16        0x4 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000f16                process_action_kb
+                0x0000000000000f7e        0x4 .build/obj_minim_default/quantum/quantum.o
+                0x0000000000000f7e                process_action_kb
  .text.process_record_user
-                0x0000000000000f1a        0x4 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000f1a                process_record_user
+                0x0000000000000f82        0x4 .build/obj_minim_default/quantum/quantum.o
+                0x0000000000000f82                process_record_user
  .text.process_record_kb
-                0x0000000000000f1e        0x4 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000f1e                process_record_kb
+                0x0000000000000f86        0x4 .build/obj_minim_default/quantum/quantum.o
+                0x0000000000000f86                process_record_kb
  .text.get_event_keycode
-                0x0000000000000f22       0x62 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000f22                get_event_keycode
+                0x0000000000000f8a       0x62 .build/obj_minim_default/quantum/quantum.o
+                0x0000000000000f8a                get_event_keycode
  .text.get_record_keycode
-                0x0000000000000f84       0x10 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000f84                get_record_keycode
+                0x0000000000000fec       0x10 .build/obj_minim_default/quantum/quantum.o
+                0x0000000000000fec                get_record_keycode
  .text.matrix_init_quantum
-                0x0000000000000f94       0x10 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000f94                matrix_init_quantum
+                0x0000000000000ffc       0x10 .build/obj_minim_default/quantum/quantum.o
+                0x0000000000000ffc                matrix_init_quantum
  .text.matrix_scan_quantum
-                0x0000000000000fa4        0x4 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000fa4                matrix_scan_quantum
+                0x000000000000100c        0x4 .build/obj_minim_default/quantum/quantum.o
+                0x000000000000100c                matrix_scan_quantum
  .text.led_set_kb
-                0x0000000000000fa8        0x4 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000fa8                led_set_kb
+                0x0000000000001010        0x4 .build/obj_minim_default/quantum/quantum.o
+                0x0000000000001010                led_set_kb
  .text.led_update_user
-                0x0000000000000fac        0x4 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000fac                led_update_user
+                0x0000000000001014        0x4 .build/obj_minim_default/quantum/quantum.o
+                0x0000000000001014                led_update_user
  .text.led_update_kb
-                0x0000000000000fb0        0x4 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000fb0                led_update_kb
- .text.led_set  0x0000000000000fb4       0x10 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000fb4                led_set
+                0x0000000000001018        0x4 .build/obj_minim_default/quantum/quantum.o
+                0x0000000000001018                led_update_kb
+ .text.led_set  0x000000000000101c       0x10 .build/obj_minim_default/quantum/quantum.o
+                0x000000000000101c                led_set
  .text.shutdown_user
-                0x0000000000000fc4        0x2 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000fc4                shutdown_user
+                0x000000000000102c        0x2 .build/obj_minim_default/quantum/quantum.o
+                0x000000000000102c                shutdown_user
  .text.reset_keyboard
-                0x0000000000000fc6       0x1e .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000fc6                reset_keyboard
+                0x000000000000102e       0x1e .build/obj_minim_default/quantum/quantum.o
+                0x000000000000102e                reset_keyboard
  .text.process_record_quantum
-                0x0000000000000fe4      0x352 .build/obj_minim_default/quantum/quantum.o
-                0x0000000000000fe4                process_record_quantum
+                0x000000000000104c      0x352 .build/obj_minim_default/quantum/quantum.o
+                0x000000000000104c                process_record_quantum
  .text.action_get_macro
-                0x0000000000001336        0x6 .build/obj_minim_default/quantum/keymap_common.o
-                0x0000000000001336                action_get_macro
+                0x000000000000139e        0x6 .build/obj_minim_default/quantum/keymap_common.o
+                0x000000000000139e                action_get_macro
  .text.action_function
-                0x000000000000133c        0x2 .build/obj_minim_default/quantum/keymap_common.o
-                0x000000000000133c                action_function
+                0x00000000000013a4        0x2 .build/obj_minim_default/quantum/keymap_common.o
+                0x00000000000013a4                action_function
  .text.keymap_key_to_keycode
-                0x000000000000133e       0x34 .build/obj_minim_default/quantum/keymap_common.o
-                0x000000000000133e                keymap_key_to_keycode
+                0x00000000000013a6       0x34 .build/obj_minim_default/quantum/keymap_common.o
+                0x00000000000013a6                keymap_key_to_keycode
  .text.keymap_function_id_to_action
-                0x0000000000001372       0x10 .build/obj_minim_default/quantum/keymap_common.o
-                0x0000000000001372                keymap_function_id_to_action
+                0x00000000000013da       0x10 .build/obj_minim_default/quantum/keymap_common.o
+                0x00000000000013da                keymap_function_id_to_action
  .text.action_for_key
-                0x0000000000001382      0x37c .build/obj_minim_default/quantum/keymap_common.o
-                0x0000000000001382                action_for_key
+                0x00000000000013ea      0x37c .build/obj_minim_default/quantum/keymap_common.o
+                0x00000000000013ea                action_for_key
  .text.keycode_config
-                0x00000000000016fe      0x12e .build/obj_minim_default/quantum/keycode_config.o
-                0x00000000000016fe                keycode_config
+                0x0000000000001766      0x12e .build/obj_minim_default/quantum/keycode_config.o
+                0x0000000000001766                keycode_config
  .text.mod_config
-                0x000000000000182c       0x86 .build/obj_minim_default/quantum/keycode_config.o
-                0x000000000000182c                mod_config
+                0x0000000000001894       0x86 .build/obj_minim_default/quantum/keycode_config.o
+                0x0000000000001894                mod_config
  .text.matrix_init_kb
-                0x00000000000018b2        0x4 .build/obj_minim_default/quantum/matrix.o
-                0x00000000000018b2                matrix_init_kb
+                0x000000000000191a        0x4 .build/obj_minim_default/quantum/matrix.o
+                0x000000000000191a                matrix_init_kb
  .text.matrix_scan_kb
-                0x00000000000018b6        0x4 .build/obj_minim_default/quantum/matrix.o
-                0x00000000000018b6                matrix_scan_kb
+                0x000000000000191e        0x4 .build/obj_minim_default/quantum/matrix.o
+                0x000000000000191e                matrix_scan_kb
  .text.matrix_get_row
-                0x00000000000018ba       0x12 .build/obj_minim_default/quantum/matrix.o
-                0x00000000000018ba                matrix_get_row
+                0x0000000000001922       0x12 .build/obj_minim_default/quantum/matrix.o
+                0x0000000000001922                matrix_get_row
  .text.matrix_print
-                0x00000000000018cc       0x8e .build/obj_minim_default/quantum/matrix.o
-                0x00000000000018cc                matrix_print
+                0x0000000000001934       0x8e .build/obj_minim_default/quantum/matrix.o
+                0x0000000000001934                matrix_print
  .text.matrix_init
-                0x000000000000195a       0xc2 .build/obj_minim_default/quantum/matrix.o
-                0x000000000000195a                matrix_init
+                0x00000000000019c2       0xc2 .build/obj_minim_default/quantum/matrix.o
+                0x00000000000019c2                matrix_init
  .text.matrix_scan
-                0x0000000000001a1c      0x12c .build/obj_minim_default/quantum/matrix.o
-                0x0000000000001a1c                matrix_scan
+                0x0000000000001a84      0x12c .build/obj_minim_default/quantum/matrix.o
+                0x0000000000001a84                matrix_scan
  .text.debounce_init
-                0x0000000000001b48        0x2 .build/obj_minim_default/quantum/debounce/sym_g.o
-                0x0000000000001b48                debounce_init
+                0x0000000000001bb0        0x2 .build/obj_minim_default/quantum/debounce/sym_g.o
+                0x0000000000001bb0                debounce_init
  .text.debounce
-                0x0000000000001b4a       0x72 .build/obj_minim_default/quantum/debounce/sym_g.o
-                0x0000000000001b4a                debounce
+                0x0000000000001bb2       0x72 .build/obj_minim_default/quantum/debounce/sym_g.o
+                0x0000000000001bb2                debounce
  .text.perform_space_cadet
-                0x0000000000001bbc       0xda .build/obj_minim_default/quantum/process_keycode/process_space_cadet.o
-                0x0000000000001bbc                perform_space_cadet
+                0x0000000000001c24       0xda .build/obj_minim_default/quantum/process_keycode/process_space_cadet.o
+                0x0000000000001c24                perform_space_cadet
  .text.process_space_cadet
-                0x0000000000001c96       0x82 .build/obj_minim_default/quantum/process_keycode/process_space_cadet.o
-                0x0000000000001c96                process_space_cadet
+                0x0000000000001cfe       0x82 .build/obj_minim_default/quantum/process_keycode/process_space_cadet.o
+                0x0000000000001cfe                process_space_cadet
  .text.host_set_driver
-                0x0000000000001d18        0xa .build/obj_minim_default/common/host.o
-                0x0000000000001d18                host_set_driver
+                0x0000000000001d80        0xa .build/obj_minim_default/common/host.o
+                0x0000000000001d80                host_set_driver
  .text.host_keyboard_leds
-                0x0000000000001d22       0x18 .build/obj_minim_default/common/host.o
-                0x0000000000001d22                host_keyboard_leds
+                0x0000000000001d8a       0x18 .build/obj_minim_default/common/host.o
+                0x0000000000001d8a                host_keyboard_leds
  .text.host_keyboard_send
-                0x0000000000001d3a       0x98 .build/obj_minim_default/common/host.o
-                0x0000000000001d3a                host_keyboard_send
+                0x0000000000001da2       0x98 .build/obj_minim_default/common/host.o
+                0x0000000000001da2                host_keyboard_send
  .text.host_mouse_send
-                0x0000000000001dd2       0x1c .build/obj_minim_default/common/host.o
-                0x0000000000001dd2                host_mouse_send
+                0x0000000000001e3a       0x1c .build/obj_minim_default/common/host.o
+                0x0000000000001e3a                host_mouse_send
  .text.host_system_send
-                0x0000000000001dee       0x2c .build/obj_minim_default/common/host.o
-                0x0000000000001dee                host_system_send
+                0x0000000000001e56       0x2c .build/obj_minim_default/common/host.o
+                0x0000000000001e56                host_system_send
  .text.host_consumer_send
-                0x0000000000001e1a       0x2c .build/obj_minim_default/common/host.o
-                0x0000000000001e1a                host_consumer_send
+                0x0000000000001e82       0x2c .build/obj_minim_default/common/host.o
+                0x0000000000001e82                host_consumer_send
  .text.keyboard_pre_init_user
-                0x0000000000001e46        0x2 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001e46                keyboard_pre_init_user
+                0x0000000000001eae        0x2 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001eae                keyboard_pre_init_user
  .text.matrix_setup
-                0x0000000000001e48        0x2 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001e48                matrix_setup
+                0x0000000000001eb0        0x2 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001eb0                matrix_setup
  .text.keyboard_pre_init_kb
-                0x0000000000001e4a        0x4 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001e4a                keyboard_pre_init_kb
+                0x0000000000001eb2        0x4 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001eb2                keyboard_pre_init_kb
  .text.keyboard_post_init_user
-                0x0000000000001e4e        0x2 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001e4e                keyboard_post_init_user
+                0x0000000000001eb6        0x2 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001eb6                keyboard_post_init_user
  .text.keyboard_post_init_kb
-                0x0000000000001e50        0x4 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001e50                keyboard_post_init_kb
+                0x0000000000001eb8        0x4 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001eb8                keyboard_post_init_kb
  .text.keyboard_setup
-                0x0000000000001e54        0x8 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001e54                keyboard_setup
+                0x0000000000001ebc        0x8 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001ebc                keyboard_setup
  .text.is_keyboard_master
-                0x0000000000001e5c        0x4 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001e5c                is_keyboard_master
+                0x0000000000001ec4        0x4 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001ec4                is_keyboard_master
  .text.keyboard_init
-                0x0000000000001e60       0x10 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001e60                keyboard_init
+                0x0000000000001ec8       0x10 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001ec8                keyboard_init
  .text.keyboard_set_leds
-                0x0000000000001e70       0x50 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001e70                keyboard_set_leds
+                0x0000000000001ed8       0x50 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001ed8                keyboard_set_leds
  .text.keyboard_task
-                0x0000000000001ec0      0x174 .build/obj_minim_default/common/keyboard.o
-                0x0000000000001ec0                keyboard_task
+                0x0000000000001f28      0x174 .build/obj_minim_default/common/keyboard.o
+                0x0000000000001f28                keyboard_task
  .text.action_exec
-                0x0000000000002034       0x54 .build/obj_minim_default/common/action.o
-                0x0000000000002034                action_exec
+                0x000000000000209c       0x54 .build/obj_minim_default/common/action.o
+                0x000000000000209c                action_exec
  .text.process_record_tap_hint
-                0x0000000000002088        0xa .build/obj_minim_default/common/action.o
-                0x0000000000002088                process_record_tap_hint
+                0x00000000000020f0        0xa .build/obj_minim_default/common/action.o
+                0x00000000000020f0                process_record_tap_hint
  .text.register_code
-                0x0000000000002092      0x1da .build/obj_minim_default/common/action.o
-                0x0000000000002092                register_code
+                0x00000000000020fa      0x1da .build/obj_minim_default/common/action.o
+                0x00000000000020fa                register_code
  .text.unregister_code
-                0x000000000000226c       0xac .build/obj_minim_default/common/action.o
-                0x000000000000226c                unregister_code
+                0x00000000000022d4       0xac .build/obj_minim_default/common/action.o
+                0x00000000000022d4                unregister_code
  .text.tap_code
-                0x0000000000002318       0x26 .build/obj_minim_default/common/action.o
-                0x0000000000002318                tap_code
+                0x0000000000002380       0x26 .build/obj_minim_default/common/action.o
+                0x0000000000002380                tap_code
  .text.register_mods
-                0x000000000000233e        0xe .build/obj_minim_default/common/action.o
-                0x000000000000233e                register_mods
+                0x00000000000023a6        0xe .build/obj_minim_default/common/action.o
+                0x00000000000023a6                register_mods
  .text.unregister_mods
-                0x000000000000234c        0xe .build/obj_minim_default/common/action.o
-                0x000000000000234c                unregister_mods
+                0x00000000000023b4        0xe .build/obj_minim_default/common/action.o
+                0x00000000000023b4                unregister_mods
  .text.process_action
-                0x000000000000235a      0x498 .build/obj_minim_default/common/action.o
-                0x000000000000235a                process_action
+                0x00000000000023c2      0x498 .build/obj_minim_default/common/action.o
+                0x00000000000023c2                process_action
  .text.process_record
-                0x00000000000027f2       0x54 .build/obj_minim_default/common/action.o
-                0x00000000000027f2                process_record
+                0x000000000000285a       0x54 .build/obj_minim_default/common/action.o
+                0x000000000000285a                process_record
  .text.clear_keyboard_but_mods_and_keys
-                0x0000000000002846       0x24 .build/obj_minim_default/common/action.o
-                0x0000000000002846                clear_keyboard_but_mods_and_keys
+                0x00000000000028ae       0x24 .build/obj_minim_default/common/action.o
+                0x00000000000028ae                clear_keyboard_but_mods_and_keys
  .text.clear_keyboard_but_mods
-                0x000000000000286a        0x8 .build/obj_minim_default/common/action.o
-                0x000000000000286a                clear_keyboard_but_mods
+                0x00000000000028d2        0x8 .build/obj_minim_default/common/action.o
+                0x00000000000028d2                clear_keyboard_but_mods
  .text.clear_keyboard
-                0x0000000000002872        0x8 .build/obj_minim_default/common/action.o
-                0x0000000000002872                clear_keyboard
+                0x00000000000028da        0x8 .build/obj_minim_default/common/action.o
+                0x00000000000028da                clear_keyboard
  .text.is_tap_action
-                0x000000000000287a       0x3e .build/obj_minim_default/common/action.o
-                0x000000000000287a                is_tap_action
+                0x00000000000028e2       0x3e .build/obj_minim_default/common/action.o
+                0x00000000000028e2                is_tap_action
  .text.is_tap_key
-                0x00000000000028b8        0x8 .build/obj_minim_default/common/action.o
-                0x00000000000028b8                is_tap_key
+                0x0000000000002920        0x8 .build/obj_minim_default/common/action.o
+                0x0000000000002920                is_tap_key
  .text.debug_event
-                0x00000000000028c0       0x1e .build/obj_minim_default/common/action.o
-                0x00000000000028c0                debug_event
+                0x0000000000002928       0x1e .build/obj_minim_default/common/action.o
+                0x0000000000002928                debug_event
  .text.debug_record
-                0x00000000000028de       0x20 .build/obj_minim_default/common/action.o
-                0x00000000000028de                debug_record
+                0x0000000000002946       0x20 .build/obj_minim_default/common/action.o
+                0x0000000000002946                debug_record
  .text.debug_waiting_buffer
-                0x00000000000028fe       0x3e .build/obj_minim_default/common/action_tapping.o
+                0x0000000000002966       0x3e .build/obj_minim_default/common/action_tapping.o
  .text.debug_tapping_key
-                0x000000000000293c       0x1c .build/obj_minim_default/common/action_tapping.o
+                0x00000000000029a4       0x1c .build/obj_minim_default/common/action_tapping.o
  .text.waiting_buffer_scan_tap
-                0x0000000000002958       0xe0 .build/obj_minim_default/common/action_tapping.o
+                0x00000000000029c0       0xe0 .build/obj_minim_default/common/action_tapping.o
  .text.process_tapping
-                0x0000000000002a38      0x394 .build/obj_minim_default/common/action_tapping.o
+                0x0000000000002aa0      0x394 .build/obj_minim_default/common/action_tapping.o
  .text.action_tapping_process
-                0x0000000000002dcc      0x13c .build/obj_minim_default/common/action_tapping.o
-                0x0000000000002dcc                action_tapping_process
+                0x0000000000002e34      0x13c .build/obj_minim_default/common/action_tapping.o
+                0x0000000000002e34                action_tapping_process
  .text.action_macro_play
-                0x0000000000002f08       0xf0 .build/obj_minim_default/common/action_macro.o
-                0x0000000000002f08                action_macro_play
+                0x0000000000002f70       0xf0 .build/obj_minim_default/common/action_macro.o
+                0x0000000000002f70                action_macro_play
  .text.default_layer_state_set_user
-                0x0000000000002ff8        0x2 .build/obj_minim_default/common/action_layer.o
-                0x0000000000002ff8                default_layer_state_set_user
+                0x0000000000003060        0x2 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003060                default_layer_state_set_user
  .text.default_layer_state_set_kb
-                0x0000000000002ffa        0x4 .build/obj_minim_default/common/action_layer.o
-                0x0000000000002ffa                default_layer_state_set_kb
+                0x0000000000003062        0x4 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003062                default_layer_state_set_kb
  .text.default_layer_state_set
-                0x0000000000002ffe       0x18 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003066       0x18 .build/obj_minim_default/common/action_layer.o
  .text.default_layer_debug
-                0x0000000000003016        0x2 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003016                default_layer_debug
+                0x000000000000307e        0x2 .build/obj_minim_default/common/action_layer.o
+                0x000000000000307e                default_layer_debug
  .text.default_layer_set
-                0x0000000000003018        0x4 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003018                default_layer_set
+                0x0000000000003080        0x4 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003080                default_layer_set
  .text.default_layer_or
-                0x000000000000301c       0x24 .build/obj_minim_default/common/action_layer.o
-                0x000000000000301c                default_layer_or
+                0x0000000000003084       0x24 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003084                default_layer_or
  .text.default_layer_and
-                0x0000000000003040       0x24 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003040                default_layer_and
+                0x00000000000030a8       0x24 .build/obj_minim_default/common/action_layer.o
+                0x00000000000030a8                default_layer_and
  .text.default_layer_xor
-                0x0000000000003064       0x24 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003064                default_layer_xor
+                0x00000000000030cc       0x24 .build/obj_minim_default/common/action_layer.o
+                0x00000000000030cc                default_layer_xor
  .text.layer_state_set_user
-                0x0000000000003088        0x4 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003088                layer_state_set_user
+                0x00000000000030f0        0x4 .build/obj_minim_default/common/action_layer.o
+                0x00000000000030f0                layer_state_set_user
  .text.layer_state_set_kb
-                0x000000000000308c        0x4 .build/obj_minim_default/common/action_layer.o
-                0x000000000000308c                layer_state_set_kb
+                0x00000000000030f4        0x4 .build/obj_minim_default/common/action_layer.o
+                0x00000000000030f4                layer_state_set_kb
  .text.layer_state_set
-                0x0000000000003090       0x18 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003090                layer_state_set
+                0x00000000000030f8       0x18 .build/obj_minim_default/common/action_layer.o
+                0x00000000000030f8                layer_state_set
  .text.layer_clear
-                0x00000000000030a8        0xa .build/obj_minim_default/common/action_layer.o
-                0x00000000000030a8                layer_clear
+                0x0000000000003110        0xa .build/obj_minim_default/common/action_layer.o
+                0x0000000000003110                layer_clear
  .text.layer_move
-                0x00000000000030b2       0x2a .build/obj_minim_default/common/action_layer.o
-                0x00000000000030b2                layer_move
+                0x000000000000311a       0x2a .build/obj_minim_default/common/action_layer.o
+                0x000000000000311a                layer_move
  .text.layer_on
-                0x00000000000030dc       0x42 .build/obj_minim_default/common/action_layer.o
-                0x00000000000030dc                layer_on
+                0x0000000000003144       0x42 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003144                layer_on
  .text.layer_off
-                0x000000000000311e       0x46 .build/obj_minim_default/common/action_layer.o
-                0x000000000000311e                layer_off
+                0x0000000000003186       0x46 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003186                layer_off
  .text.layer_invert
-                0x0000000000003164       0x42 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003164                layer_invert
+                0x00000000000031cc       0x42 .build/obj_minim_default/common/action_layer.o
+                0x00000000000031cc                layer_invert
  .text.layer_or
-                0x00000000000031a6       0x24 .build/obj_minim_default/common/action_layer.o
-                0x00000000000031a6                layer_or
+                0x000000000000320e       0x24 .build/obj_minim_default/common/action_layer.o
+                0x000000000000320e                layer_or
  .text.layer_and
-                0x00000000000031ca       0x24 .build/obj_minim_default/common/action_layer.o
-                0x00000000000031ca                layer_and
+                0x0000000000003232       0x24 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003232                layer_and
  .text.layer_xor
-                0x00000000000031ee       0x24 .build/obj_minim_default/common/action_layer.o
-                0x00000000000031ee                layer_xor
+                0x0000000000003256       0x24 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003256                layer_xor
  .text.layer_debug
-                0x0000000000003212        0x2 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003212                layer_debug
+                0x000000000000327a        0x2 .build/obj_minim_default/common/action_layer.o
+                0x000000000000327a                layer_debug
  .text.update_source_layers_cache
-                0x0000000000003214       0x6e .build/obj_minim_default/common/action_layer.o
-                0x0000000000003214                update_source_layers_cache
+                0x000000000000327c       0x6e .build/obj_minim_default/common/action_layer.o
+                0x000000000000327c                update_source_layers_cache
  .text.read_source_layers_cache
-                0x0000000000003282       0x58 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003282                read_source_layers_cache
+                0x00000000000032ea       0x58 .build/obj_minim_default/common/action_layer.o
+                0x00000000000032ea                read_source_layers_cache
  .text.layer_switch_get_layer
-                0x00000000000032da       0x84 .build/obj_minim_default/common/action_layer.o
-                0x00000000000032da                layer_switch_get_layer
+                0x0000000000003342       0x84 .build/obj_minim_default/common/action_layer.o
+                0x0000000000003342                layer_switch_get_layer
  .text.layer_switch_get_action
-                0x000000000000335e       0x14 .build/obj_minim_default/common/action_layer.o
-                0x000000000000335e                layer_switch_get_action
+                0x00000000000033c6       0x14 .build/obj_minim_default/common/action_layer.o
+                0x00000000000033c6                layer_switch_get_action
  .text.store_or_get_action
-                0x0000000000003372       0x48 .build/obj_minim_default/common/action_layer.o
-                0x0000000000003372                store_or_get_action
- .text.add_key  0x00000000000033ba        0xe .build/obj_minim_default/common/action_util.o
-                0x00000000000033ba                add_key
- .text.del_key  0x00000000000033c8        0xe .build/obj_minim_default/common/action_util.o
-                0x00000000000033c8                del_key
+                0x00000000000033da       0x48 .build/obj_minim_default/common/action_layer.o
+                0x00000000000033da                store_or_get_action
+ .text.add_key  0x0000000000003422        0xe .build/obj_minim_default/common/action_util.o
+                0x0000000000003422                add_key
+ .text.del_key  0x0000000000003430        0xe .build/obj_minim_default/common/action_util.o
+                0x0000000000003430                del_key
  .text.clear_keys
-                0x00000000000033d6        0xc .build/obj_minim_default/common/action_util.o
-                0x00000000000033d6                clear_keys
+                0x000000000000343e        0xc .build/obj_minim_default/common/action_util.o
+                0x000000000000343e                clear_keys
  .text.get_oneshot_layer
-                0x00000000000033e2        0xc .build/obj_minim_default/common/action_util.o
-                0x00000000000033e2                get_oneshot_layer
- .text.get_oneshot_layer_state
-                0x00000000000033ee        0x8 .build/obj_minim_default/common/action_util.o
-                0x00000000000033ee                get_oneshot_layer_state
- .text.is_oneshot_layer_active
-                0x00000000000033f6        0xe .build/obj_minim_default/common/action_util.o
-                0x00000000000033f6                is_oneshot_layer_active
- .text.get_mods
-                0x0000000000003404        0x6 .build/obj_minim_default/common/action_util.o
-                0x0000000000003404                get_mods
- .text.add_mods
-                0x000000000000340a        0xc .build/obj_minim_default/common/action_util.o
-                0x000000000000340a                add_mods
- .text.del_mods
-                0x0000000000003416        0xe .build/obj_minim_default/common/action_util.o
-                0x0000000000003416                del_mods
- .text.clear_mods
-                0x0000000000003424        0x6 .build/obj_minim_default/common/action_util.o
-                0x0000000000003424                clear_mods
- .text.add_weak_mods
-                0x000000000000342a        0xc .build/obj_minim_default/common/action_util.o
-                0x000000000000342a                add_weak_mods
- .text.del_weak_mods
-                0x0000000000003436        0xe .build/obj_minim_default/common/action_util.o
-                0x0000000000003436                del_weak_mods
- .text.clear_weak_mods
-                0x0000000000003444        0x6 .build/obj_minim_default/common/action_util.o
-                0x0000000000003444                clear_weak_mods
- .text.add_macro_mods
                 0x000000000000344a        0xc .build/obj_minim_default/common/action_util.o
-                0x000000000000344a                add_macro_mods
+                0x000000000000344a                get_oneshot_layer
+ .text.get_oneshot_layer_state
+                0x0000000000003456        0x8 .build/obj_minim_default/common/action_util.o
+                0x0000000000003456                get_oneshot_layer_state
+ .text.is_oneshot_layer_active
+                0x000000000000345e        0xe .build/obj_minim_default/common/action_util.o
+                0x000000000000345e                is_oneshot_layer_active
+ .text.get_mods
+                0x000000000000346c        0x6 .build/obj_minim_default/common/action_util.o
+                0x000000000000346c                get_mods
+ .text.add_mods
+                0x0000000000003472        0xc .build/obj_minim_default/common/action_util.o
+                0x0000000000003472                add_mods
+ .text.del_mods
+                0x000000000000347e        0xe .build/obj_minim_default/common/action_util.o
+                0x000000000000347e                del_mods
+ .text.clear_mods
+                0x000000000000348c        0x6 .build/obj_minim_default/common/action_util.o
+                0x000000000000348c                clear_mods
+ .text.add_weak_mods
+                0x0000000000003492        0xc .build/obj_minim_default/common/action_util.o
+                0x0000000000003492                add_weak_mods
+ .text.del_weak_mods
+                0x000000000000349e        0xe .build/obj_minim_default/common/action_util.o
+                0x000000000000349e                del_weak_mods
+ .text.clear_weak_mods
+                0x00000000000034ac        0x6 .build/obj_minim_default/common/action_util.o
+                0x00000000000034ac                clear_weak_mods
+ .text.add_macro_mods
+                0x00000000000034b2        0xc .build/obj_minim_default/common/action_util.o
+                0x00000000000034b2                add_macro_mods
  .text.del_macro_mods
-                0x0000000000003456        0xe .build/obj_minim_default/common/action_util.o
-                0x0000000000003456                del_macro_mods
+                0x00000000000034be        0xe .build/obj_minim_default/common/action_util.o
+                0x00000000000034be                del_macro_mods
  .text.clear_macro_mods
-                0x0000000000003464        0x6 .build/obj_minim_default/common/action_util.o
-                0x0000000000003464                clear_macro_mods
+                0x00000000000034cc        0x6 .build/obj_minim_default/common/action_util.o
+                0x00000000000034cc                clear_macro_mods
  .text.get_oneshot_mods
-                0x000000000000346a        0x6 .build/obj_minim_default/common/action_util.o
-                0x000000000000346a                get_oneshot_mods
+                0x00000000000034d2        0x6 .build/obj_minim_default/common/action_util.o
+                0x00000000000034d2                get_oneshot_mods
  .text.oneshot_mods_changed_user
-                0x0000000000003470        0x2 .build/obj_minim_default/common/action_util.o
-                0x0000000000003470                oneshot_mods_changed_user
+                0x00000000000034d8        0x2 .build/obj_minim_default/common/action_util.o
+                0x00000000000034d8                oneshot_mods_changed_user
  .text.oneshot_mods_changed_kb
-                0x0000000000003472        0x4 .build/obj_minim_default/common/action_util.o
-                0x0000000000003472                oneshot_mods_changed_kb
+                0x00000000000034da        0x4 .build/obj_minim_default/common/action_util.o
+                0x00000000000034da                oneshot_mods_changed_kb
  .text.set_oneshot_mods
-                0x0000000000003476       0x12 .build/obj_minim_default/common/action_util.o
-                0x0000000000003476                set_oneshot_mods
+                0x00000000000034de       0x12 .build/obj_minim_default/common/action_util.o
+                0x00000000000034de                set_oneshot_mods
  .text.clear_oneshot_mods
-                0x0000000000003488       0x14 .build/obj_minim_default/common/action_util.o
-                0x0000000000003488                clear_oneshot_mods
+                0x00000000000034f0       0x14 .build/obj_minim_default/common/action_util.o
+                0x00000000000034f0                clear_oneshot_mods
  .text.send_keyboard_report
-                0x000000000000349c       0x66 .build/obj_minim_default/common/action_util.o
-                0x000000000000349c                send_keyboard_report
+                0x0000000000003504       0x66 .build/obj_minim_default/common/action_util.o
+                0x0000000000003504                send_keyboard_report
  .text.oneshot_layer_changed_user
-                0x0000000000003502        0x2 .build/obj_minim_default/common/action_util.o
-                0x0000000000003502                oneshot_layer_changed_user
+                0x000000000000356a        0x2 .build/obj_minim_default/common/action_util.o
+                0x000000000000356a                oneshot_layer_changed_user
  .text.oneshot_layer_changed_kb
-                0x0000000000003504        0x4 .build/obj_minim_default/common/action_util.o
-                0x0000000000003504                oneshot_layer_changed_kb
+                0x000000000000356c        0x4 .build/obj_minim_default/common/action_util.o
+                0x000000000000356c                oneshot_layer_changed_kb
  .text.set_oneshot_layer
-                0x0000000000003508       0x20 .build/obj_minim_default/common/action_util.o
-                0x0000000000003508                set_oneshot_layer
+                0x0000000000003570       0x20 .build/obj_minim_default/common/action_util.o
+                0x0000000000003570                set_oneshot_layer
  .text.reset_oneshot_layer
-                0x0000000000003528        0xa .build/obj_minim_default/common/action_util.o
-                0x0000000000003528                reset_oneshot_layer
+                0x0000000000003590        0xa .build/obj_minim_default/common/action_util.o
+                0x0000000000003590                reset_oneshot_layer
  .text.clear_oneshot_layer_state
-                0x0000000000003532       0x30 .build/obj_minim_default/common/action_util.o
-                0x0000000000003532                clear_oneshot_layer_state
+                0x000000000000359a       0x30 .build/obj_minim_default/common/action_util.o
+                0x000000000000359a                clear_oneshot_layer_state
  .text.print_set_sendchar
-                0x0000000000003562        0xa .build/obj_minim_default/common/print.o
-                0x0000000000003562                print_set_sendchar
- .text.bitrev   0x000000000000356c       0x30 .build/obj_minim_default/common/util.o
-                0x000000000000356c                bitrev
+                0x00000000000035ca        0xa .build/obj_minim_default/common/print.o
+                0x00000000000035ca                print_set_sendchar
+ .text.bitrev   0x00000000000035d4       0x30 .build/obj_minim_default/common/util.o
+                0x00000000000035d4                bitrev
  .text.bitrev16
-                0x000000000000359c       0x1a .build/obj_minim_default/common/util.o
-                0x000000000000359c                bitrev16
+                0x0000000000003604       0x1a .build/obj_minim_default/common/util.o
+                0x0000000000003604                bitrev16
  .text.eeconfig_is_enabled
-                0x00000000000035b6       0x16 .build/obj_minim_default/common/eeconfig.o
-                0x00000000000035b6                eeconfig_is_enabled
+                0x000000000000361e       0x16 .build/obj_minim_default/common/eeconfig.o
+                0x000000000000361e                eeconfig_is_enabled
  .text.eeconfig_read_debug
-                0x00000000000035cc        0x8 .build/obj_minim_default/common/eeconfig.o
-                0x00000000000035cc                eeconfig_read_debug
+                0x0000000000003634        0x8 .build/obj_minim_default/common/eeconfig.o
+                0x0000000000003634                eeconfig_read_debug
  .text.eeconfig_read_default_layer
-                0x00000000000035d4        0x8 .build/obj_minim_default/common/eeconfig.o
-                0x00000000000035d4                eeconfig_read_default_layer
+                0x000000000000363c        0x8 .build/obj_minim_default/common/eeconfig.o
+                0x000000000000363c                eeconfig_read_default_layer
  .text.eeconfig_read_keymap
-                0x00000000000035dc       0x1c .build/obj_minim_default/common/eeconfig.o
-                0x00000000000035dc                eeconfig_read_keymap
+                0x0000000000003644       0x1c .build/obj_minim_default/common/eeconfig.o
+                0x0000000000003644                eeconfig_read_keymap
  .text.eeconfig_update_keymap
-                0x00000000000035f8       0x1a .build/obj_minim_default/common/eeconfig.o
-                0x00000000000035f8                eeconfig_update_keymap
+                0x0000000000003660       0x1a .build/obj_minim_default/common/eeconfig.o
+                0x0000000000003660                eeconfig_update_keymap
  .text.eeconfig_update_kb
-                0x0000000000003612        0xc .build/obj_minim_default/common/eeconfig.o
-                0x0000000000003612                eeconfig_update_kb
+                0x000000000000367a        0xc .build/obj_minim_default/common/eeconfig.o
+                0x000000000000367a                eeconfig_update_kb
  .text.eeconfig_update_user
-                0x000000000000361e        0xc .build/obj_minim_default/common/eeconfig.o
-                0x000000000000361e                eeconfig_update_user
+                0x0000000000003686        0xc .build/obj_minim_default/common/eeconfig.o
+                0x0000000000003686                eeconfig_update_user
  .text.eeconfig_init_user
-                0x000000000000362a        0xa .build/obj_minim_default/common/eeconfig.o
-                0x000000000000362a                eeconfig_init_user
+                0x0000000000003692        0xa .build/obj_minim_default/common/eeconfig.o
+                0x0000000000003692                eeconfig_init_user
  .text.eeconfig_init_kb
-                0x0000000000003634        0xe .build/obj_minim_default/common/eeconfig.o
-                0x0000000000003634                eeconfig_init_kb
+                0x000000000000369c        0xe .build/obj_minim_default/common/eeconfig.o
+                0x000000000000369c                eeconfig_init_kb
  .text.eeconfig_init_quantum
-                0x0000000000003642       0xae .build/obj_minim_default/common/eeconfig.o
-                0x0000000000003642                eeconfig_init_quantum
+                0x00000000000036aa       0xae .build/obj_minim_default/common/eeconfig.o
+                0x00000000000036aa                eeconfig_init_quantum
  .text.eeconfig_init
-                0x00000000000036f0        0x4 .build/obj_minim_default/common/eeconfig.o
-                0x00000000000036f0                eeconfig_init
+                0x0000000000003758        0x4 .build/obj_minim_default/common/eeconfig.o
+                0x0000000000003758                eeconfig_init
  .text.eeconfig_update_handedness
-                0x00000000000036f4        0xa .build/obj_minim_default/common/eeconfig.o
-                0x00000000000036f4                eeconfig_update_handedness
+                0x000000000000375c        0xa .build/obj_minim_default/common/eeconfig.o
+                0x000000000000375c                eeconfig_update_handedness
  .text.has_anykey
-                0x00000000000036fe       0x24 .build/obj_minim_default/common/report.o
-                0x00000000000036fe                has_anykey
+                0x0000000000003766       0x24 .build/obj_minim_default/common/report.o
+                0x0000000000003766                has_anykey
  .text.add_key_byte
-                0x0000000000003722       0x34 .build/obj_minim_default/common/report.o
-                0x0000000000003722                add_key_byte
+                0x000000000000378a       0x34 .build/obj_minim_default/common/report.o
+                0x000000000000378a                add_key_byte
  .text.del_key_byte
-                0x0000000000003756       0x1a .build/obj_minim_default/common/report.o
-                0x0000000000003756                del_key_byte
+                0x00000000000037be       0x1a .build/obj_minim_default/common/report.o
+                0x00000000000037be                del_key_byte
  .text.add_key_to_report
-                0x0000000000003770        0x4 .build/obj_minim_default/common/report.o
-                0x0000000000003770                add_key_to_report
+                0x00000000000037d8        0x4 .build/obj_minim_default/common/report.o
+                0x00000000000037d8                add_key_to_report
  .text.del_key_from_report
-                0x0000000000003774        0x4 .build/obj_minim_default/common/report.o
-                0x0000000000003774                del_key_from_report
+                0x00000000000037dc        0x4 .build/obj_minim_default/common/report.o
+                0x00000000000037dc                del_key_from_report
  .text.clear_keys_from_report
-                0x0000000000003778        0xe .build/obj_minim_default/common/report.o
-                0x0000000000003778                clear_keys_from_report
+                0x00000000000037e0        0xe .build/obj_minim_default/common/report.o
+                0x00000000000037e0                clear_keys_from_report
  .text.matrix_power_up
-                0x0000000000003786        0x2 .build/obj_minim_default/common/avr/suspend.o
-                0x0000000000003786                matrix_power_up
- .text.suspend_power_down_user
-                0x0000000000003788        0x2 .build/obj_minim_default/common/avr/suspend.o
-                0x0000000000003788                suspend_power_down_user
- .text.suspend_power_down_kb
-                0x000000000000378a        0x4 .build/obj_minim_default/common/avr/suspend.o
-                0x000000000000378a                suspend_power_down_kb
- .text.suspend_power_down
-                0x000000000000378e       0x60 .build/obj_minim_default/common/avr/suspend.o
-                0x000000000000378e                suspend_power_down
- .text.matrix_power_down
                 0x00000000000037ee        0x2 .build/obj_minim_default/common/avr/suspend.o
-                0x00000000000037ee                matrix_power_down
+                0x00000000000037ee                matrix_power_up
+ .text.suspend_power_down_user
+                0x00000000000037f0        0x2 .build/obj_minim_default/common/avr/suspend.o
+                0x00000000000037f0                suspend_power_down_user
+ .text.suspend_power_down_kb
+                0x00000000000037f2        0x4 .build/obj_minim_default/common/avr/suspend.o
+                0x00000000000037f2                suspend_power_down_kb
+ .text.suspend_power_down
+                0x00000000000037f6       0x60 .build/obj_minim_default/common/avr/suspend.o
+                0x00000000000037f6                suspend_power_down
+ .text.matrix_power_down
+                0x0000000000003856        0x2 .build/obj_minim_default/common/avr/suspend.o
+                0x0000000000003856                matrix_power_down
  .text.suspend_wakeup_condition
-                0x00000000000037f0       0x2a .build/obj_minim_default/common/avr/suspend.o
-                0x00000000000037f0                suspend_wakeup_condition
+                0x0000000000003858       0x2a .build/obj_minim_default/common/avr/suspend.o
+                0x0000000000003858                suspend_wakeup_condition
  .text.suspend_wakeup_init_user
-                0x000000000000381a        0x2 .build/obj_minim_default/common/avr/suspend.o
-                0x000000000000381a                suspend_wakeup_init_user
+                0x0000000000003882        0x2 .build/obj_minim_default/common/avr/suspend.o
+                0x0000000000003882                suspend_wakeup_init_user
  .text.suspend_wakeup_init_kb
-                0x000000000000381c        0x4 .build/obj_minim_default/common/avr/suspend.o
-                0x000000000000381c                suspend_wakeup_init_kb
+                0x0000000000003884        0x4 .build/obj_minim_default/common/avr/suspend.o
+                0x0000000000003884                suspend_wakeup_init_kb
  .text.suspend_wakeup_init
-                0x0000000000003820       0x10 .build/obj_minim_default/common/avr/suspend.o
-                0x0000000000003820                suspend_wakeup_init
+                0x0000000000003888       0x10 .build/obj_minim_default/common/avr/suspend.o
+                0x0000000000003888                suspend_wakeup_init
  .text.__vector_13
-                0x0000000000003830       0x4e .build/obj_minim_default/common/avr/suspend.o
-                0x0000000000003830                __vector_13
+                0x0000000000003898       0x4e .build/obj_minim_default/common/avr/suspend.o
+                0x0000000000003898                __vector_13
  .text.timer_init
-                0x000000000000387e       0x12 .build/obj_minim_default/common/avr/timer.o
-                0x000000000000387e                timer_init
+                0x00000000000038e6       0x12 .build/obj_minim_default/common/avr/timer.o
+                0x00000000000038e6                timer_init
  .text.timer_read
-                0x0000000000003890       0x18 .build/obj_minim_default/common/avr/timer.o
-                0x0000000000003890                timer_read
+                0x00000000000038f8       0x18 .build/obj_minim_default/common/avr/timer.o
+                0x00000000000038f8                timer_read
  .text.timer_read32
-                0x00000000000038a8       0x18 .build/obj_minim_default/common/avr/timer.o
-                0x00000000000038a8                timer_read32
+                0x0000000000003910       0x18 .build/obj_minim_default/common/avr/timer.o
+                0x0000000000003910                timer_read32
  .text.timer_elapsed
-                0x00000000000038c0       0x54 .build/obj_minim_default/common/avr/timer.o
-                0x00000000000038c0                timer_elapsed
+                0x0000000000003928       0x54 .build/obj_minim_default/common/avr/timer.o
+                0x0000000000003928                timer_elapsed
  .text.__vector_19
-                0x0000000000003914       0x48 .build/obj_minim_default/common/avr/timer.o
-                0x0000000000003914                __vector_19
+                0x000000000000397c       0x48 .build/obj_minim_default/common/avr/timer.o
+                0x000000000000397c                __vector_19
  .text.bootloader_jump
-                0x000000000000395c       0x48 .build/obj_minim_default/common/avr/bootloader.o
-                0x000000000000395c                bootloader_jump
- .text.magic    0x00000000000039a4       0x30 .build/obj_minim_default/common/magic.o
-                0x00000000000039a4                magic
+                0x00000000000039c4       0x48 .build/obj_minim_default/common/avr/bootloader.o
+                0x00000000000039c4                bootloader_jump
+ .text.magic    0x0000000000003a0c       0x30 .build/obj_minim_default/common/magic.o
+                0x0000000000003a0c                magic
  .text.move_unit
-                0x00000000000039d4       0x98 .build/obj_minim_default/common/mousekey.o
+                0x0000000000003a3c       0x98 .build/obj_minim_default/common/mousekey.o
  .text.wheel_unit
-                0x0000000000003a6c       0x76 .build/obj_minim_default/common/mousekey.o
+                0x0000000000003ad4       0x76 .build/obj_minim_default/common/mousekey.o
  .text.mousekey_on
-                0x0000000000003ae2       0xd0 .build/obj_minim_default/common/mousekey.o
-                0x0000000000003ae2                mousekey_on
+                0x0000000000003b4a       0xd0 .build/obj_minim_default/common/mousekey.o
+                0x0000000000003b4a                mousekey_on
  .text.mousekey_off
-                0x0000000000003bb2       0xfe .build/obj_minim_default/common/mousekey.o
-                0x0000000000003bb2                mousekey_off
+                0x0000000000003c1a       0xfe .build/obj_minim_default/common/mousekey.o
+                0x0000000000003c1a                mousekey_off
  .text.mousekey_send
-                0x0000000000003cb0      0x11a .build/obj_minim_default/common/mousekey.o
-                0x0000000000003cb0                mousekey_send
+                0x0000000000003d18      0x11a .build/obj_minim_default/common/mousekey.o
+                0x0000000000003d18                mousekey_send
  .text.mousekey_task
-                0x0000000000003dca      0x13c .build/obj_minim_default/common/mousekey.o
-                0x0000000000003dca                mousekey_task
+                0x0000000000003e32      0x13c .build/obj_minim_default/common/mousekey.o
+                0x0000000000003e32                mousekey_task
  .text.mousekey_clear
-                0x0000000000003f06       0x18 .build/obj_minim_default/common/mousekey.o
-                0x0000000000003f06                mousekey_clear
+                0x0000000000003f6e       0x18 .build/obj_minim_default/common/mousekey.o
+                0x0000000000003f6e                mousekey_clear
  .text.mousekey_console_help
-                0x0000000000003f1e       0x2e .build/obj_minim_default/common/command.o
+                0x0000000000003f86       0x2e .build/obj_minim_default/common/command.o
  .text.mousekey_param_inc
-                0x0000000000003f4c      0x148 .build/obj_minim_default/common/command.o
+                0x0000000000003fb4      0x148 .build/obj_minim_default/common/command.o
  .text.mousekey_param_dec
-                0x0000000000004094       0xfe .build/obj_minim_default/common/command.o
+                0x00000000000040fc       0xfe .build/obj_minim_default/common/command.o
  .text.switch_default_layer
-                0x0000000000004192       0x3c .build/obj_minim_default/common/command.o
+                0x00000000000041fa       0x3c .build/obj_minim_default/common/command.o
  .text.command_common
-                0x00000000000041ce      0x4de .build/obj_minim_default/common/command.o
+                0x0000000000004236      0x4de .build/obj_minim_default/common/command.o
  .text.command_extra
-                0x00000000000046ac        0x4 .build/obj_minim_default/common/command.o
-                0x00000000000046ac                command_extra
+                0x0000000000004714        0x4 .build/obj_minim_default/common/command.o
+                0x0000000000004714                command_extra
  .text.command_console_extra
-                0x00000000000046b0        0x4 .build/obj_minim_default/common/command.o
-                0x00000000000046b0                command_console_extra
+                0x0000000000004718        0x4 .build/obj_minim_default/common/command.o
+                0x0000000000004718                command_console_extra
  .text.numkey2num
-                0x00000000000046b4       0x16 .build/obj_minim_default/common/command.o
-                0x00000000000046b4                numkey2num
+                0x000000000000471c       0x16 .build/obj_minim_default/common/command.o
+                0x000000000000471c                numkey2num
  .text.command_proc
-                0x00000000000046ca      0x286 .build/obj_minim_default/common/command.o
-                0x00000000000046ca                command_proc
+                0x0000000000004732      0x286 .build/obj_minim_default/common/command.o
+                0x0000000000004732                command_proc
  .text.keyboard_leds
-                0x0000000000004950        0x6 .build/obj_minim_default/lufa.o
+                0x00000000000049b8        0x6 .build/obj_minim_default/lufa.o
  .text.sendchar
-                0x0000000000004956       0xc4 .build/obj_minim_default/lufa.o
-                0x0000000000004956                sendchar
+                0x00000000000049be       0xc4 .build/obj_minim_default/lufa.o
+                0x00000000000049be                sendchar
  .text.send_consumer
-                0x0000000000004a1a       0x76 .build/obj_minim_default/lufa.o
+                0x0000000000004a82       0x76 .build/obj_minim_default/lufa.o
  .text.send_system
-                0x0000000000004a90       0x6c .build/obj_minim_default/lufa.o
+                0x0000000000004af8       0x6c .build/obj_minim_default/lufa.o
  .text.send_mouse
-                0x0000000000004afc       0x56 .build/obj_minim_default/lufa.o
+                0x0000000000004b64       0x56 .build/obj_minim_default/lufa.o
  .text.send_keyboard
-                0x0000000000004b52       0x66 .build/obj_minim_default/lufa.o
+                0x0000000000004bba       0x66 .build/obj_minim_default/lufa.o
  .text.EVENT_USB_Device_Reset
-                0x0000000000004bb8        0x8 .build/obj_minim_default/lufa.o
-                0x0000000000004bb8                EVENT_USB_Device_Reset
+                0x0000000000004c20        0x8 .build/obj_minim_default/lufa.o
+                0x0000000000004c20                EVENT_USB_Device_Reset
  .text.EVENT_USB_Device_Suspend
-                0x0000000000004bc0        0x8 .build/obj_minim_default/lufa.o
-                0x0000000000004bc0                EVENT_USB_Device_Suspend
+                0x0000000000004c28        0x8 .build/obj_minim_default/lufa.o
+                0x0000000000004c28                EVENT_USB_Device_Suspend
  .text.EVENT_USB_Device_WakeUp
-                0x0000000000004bc8        0xc .build/obj_minim_default/lufa.o
-                0x0000000000004bc8                EVENT_USB_Device_WakeUp
+                0x0000000000004c30        0xc .build/obj_minim_default/lufa.o
+                0x0000000000004c30                EVENT_USB_Device_WakeUp
  .text.EVENT_USB_Device_StartOfFrame
-                0x0000000000004bd4       0x82 .build/obj_minim_default/lufa.o
-                0x0000000000004bd4                EVENT_USB_Device_StartOfFrame
+                0x0000000000004c3c       0x82 .build/obj_minim_default/lufa.o
+                0x0000000000004c3c                EVENT_USB_Device_StartOfFrame
  .text.EVENT_USB_Device_ConfigurationChanged
-                0x0000000000004c56       0x1e .build/obj_minim_default/lufa.o
-                0x0000000000004c56                EVENT_USB_Device_ConfigurationChanged
+                0x0000000000004cbe       0x1e .build/obj_minim_default/lufa.o
+                0x0000000000004cbe                EVENT_USB_Device_ConfigurationChanged
  .text.EVENT_USB_Device_ControlRequest
-                0x0000000000004c74      0x16a .build/obj_minim_default/lufa.o
-                0x0000000000004c74                EVENT_USB_Device_ControlRequest
+                0x0000000000004cdc      0x16a .build/obj_minim_default/lufa.o
+                0x0000000000004cdc                EVENT_USB_Device_ControlRequest
  .text.startup.main
-                0x0000000000004dde       0x8e .build/obj_minim_default/lufa.o
-                0x0000000000004dde                main
+                0x0000000000004e46       0x8e .build/obj_minim_default/lufa.o
+                0x0000000000004e46                main
  .text.CALLBACK_USB_GetDescriptor
-                0x0000000000004e6c        0x4 .build/obj_minim_default/lufa.o
-                0x0000000000004e6c                CALLBACK_USB_GetDescriptor
+                0x0000000000004ed4        0x4 .build/obj_minim_default/lufa.o
+                0x0000000000004ed4                CALLBACK_USB_GetDescriptor
  .text.get_usb_descriptor
-                0x0000000000004e70       0xba .build/obj_minim_default/usb_descriptor.o
-                0x0000000000004e70                get_usb_descriptor
+                0x0000000000004ed8       0xba .build/obj_minim_default/usb_descriptor.o
+                0x0000000000004ed8                get_usb_descriptor
  .text.set_output_user
-                0x0000000000004f2a        0x2 .build/obj_minim_default/outputselect.o
-                0x0000000000004f2a                set_output_user
+                0x0000000000004f92        0x2 .build/obj_minim_default/outputselect.o
+                0x0000000000004f92                set_output_user
  .text.set_output
-                0x0000000000004f2c       0x10 .build/obj_minim_default/outputselect.o
-                0x0000000000004f2c                set_output
+                0x0000000000004f94       0x10 .build/obj_minim_default/outputselect.o
+                0x0000000000004f94                set_output
  .text.auto_detect_output
-                0x0000000000004f3c       0x10 .build/obj_minim_default/outputselect.o
-                0x0000000000004f3c                auto_detect_output
+                0x0000000000004fa4       0x10 .build/obj_minim_default/outputselect.o
+                0x0000000000004fa4                auto_detect_output
  .text.where_to_send
-                0x0000000000004f4c        0xe .build/obj_minim_default/outputselect.o
-                0x0000000000004f4c                where_to_send
+                0x0000000000004fb4        0xe .build/obj_minim_default/outputselect.o
+                0x0000000000004fb4                where_to_send
  .text.USB_Device_SendRemoteWakeup
-                0x0000000000004f5a       0x2c .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
-                0x0000000000004f5a                USB_Device_SendRemoteWakeup
+                0x0000000000004fc2       0x2c .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+                0x0000000000004fc2                USB_Device_SendRemoteWakeup
  .text.Endpoint_Write_Stream_LE
-                0x0000000000004f86       0x9e .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
-                0x0000000000004f86                Endpoint_Write_Stream_LE
+                0x0000000000004fee       0x9e .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x0000000000004fee                Endpoint_Write_Stream_LE
  .text.Endpoint_Write_Control_Stream_LE
-                0x0000000000005024       0xb8 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
-                0x0000000000005024                Endpoint_Write_Control_Stream_LE
+                0x000000000000508c       0xb8 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x000000000000508c                Endpoint_Write_Control_Stream_LE
  .text.Endpoint_Write_Control_PStream_LE
-                0x00000000000050dc       0xba .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
-                0x00000000000050dc                Endpoint_Write_Control_PStream_LE
+                0x0000000000005144       0xba .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+                0x0000000000005144                Endpoint_Write_Control_PStream_LE
  .text.Endpoint_ConfigureEndpoint_Prv
-                0x0000000000005196       0x68 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
-                0x0000000000005196                Endpoint_ConfigureEndpoint_Prv
+                0x00000000000051fe       0x68 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x00000000000051fe                Endpoint_ConfigureEndpoint_Prv
  .text.Endpoint_ClearStatusStage
-                0x00000000000051fe       0x3e .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
-                0x00000000000051fe                Endpoint_ClearStatusStage
+                0x0000000000005266       0x3e .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x0000000000005266                Endpoint_ClearStatusStage
  .text.Endpoint_WaitUntilReady
-                0x000000000000523c       0x62 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
-                0x000000000000523c                Endpoint_WaitUntilReady
+                0x00000000000052a4       0x62 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+                0x00000000000052a4                Endpoint_WaitUntilReady
  .text.USB_Disable
-                0x000000000000529e       0x2e .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
-                0x000000000000529e                USB_Disable
+                0x0000000000005306       0x2e .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x0000000000005306                USB_Disable
  .text.USB_ResetInterface
-                0x00000000000052cc       0x78 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
-                0x00000000000052cc                USB_ResetInterface
+                0x0000000000005334       0x78 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x0000000000005334                USB_ResetInterface
  .text.USB_Init
-                0x0000000000005344       0x14 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
-                0x0000000000005344                USB_Init
+                0x00000000000053ac       0x14 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+                0x00000000000053ac                USB_Init
  .text.USB_INT_DisableAllInterrupts
-                0x0000000000005358        0x6 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                0x0000000000005358                USB_INT_DisableAllInterrupts
+                0x00000000000053c0        0x6 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x00000000000053c0                USB_INT_DisableAllInterrupts
  .text.USB_INT_ClearAllInterrupts
-                0x000000000000535e        0x6 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                0x000000000000535e                USB_INT_ClearAllInterrupts
+                0x00000000000053c6        0x6 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x00000000000053c6                USB_INT_ClearAllInterrupts
  .text.__vector_11
-                0x0000000000005364      0x162 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                0x0000000000005364                __vector_11
+                0x00000000000053cc      0x162 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x00000000000053cc                __vector_11
  .text.__vector_12
-                0x00000000000054c6       0x88 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
-                0x00000000000054c6                __vector_12
+                0x000000000000552e       0x88 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+                0x000000000000552e                __vector_12
  .text.USB_Device_ProcessControlRequest
-                0x000000000000554e      0x2a4 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
-                0x000000000000554e                USB_Device_ProcessControlRequest
+                0x00000000000055b6      0x2a4 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                0x00000000000055b6                USB_Device_ProcessControlRequest
  .text.USB_USBTask
-                0x00000000000057f2       0x36 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
-                0x00000000000057f2                USB_USBTask
+                0x000000000000585a       0x36 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
+                0x000000000000585a                USB_USBTask
  .text.libgcc.mul
-                0x0000000000005828       0x12 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_mulqi3.o)
-                0x0000000000005828                __mulqi3
+                0x0000000000005890       0x12 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_mulqi3.o)
+                0x0000000000005890                __mulqi3
  .text.libgcc.mul
-                0x000000000000583a       0x22 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_mulhi3.o)
-                0x000000000000583a                __mulhi3
+                0x00000000000058a2       0x22 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_mulhi3.o)
+                0x00000000000058a2                __mulhi3
  .text.libgcc.div
-                0x000000000000585c       0x18 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_udivmodqi4.o)
-                0x000000000000585c                __udivmodqi4
+                0x00000000000058c4       0x18 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_udivmodqi4.o)
+                0x00000000000058c4                __udivmodqi4
  .text.libgcc.div
-                0x0000000000005874       0x28 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_divmodhi4.o)
-                0x0000000000005874                __divmodhi4
-                0x0000000000005874                _div
- .text.libgcc   0x000000000000589c        0xc /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_tablejump2.o)
-                0x000000000000589c                __tablejump2__
+                0x00000000000058dc       0x28 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_divmodhi4.o)
+                0x00000000000058dc                __divmodhi4
+                0x00000000000058dc                _div
+ .text.libgcc   0x0000000000005904        0xc /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_tablejump2.o)
+                0x0000000000005904                __tablejump2__
  .text.libgcc.div
-                0x00000000000058a8       0x28 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_udivmodhi4.o)
-                0x00000000000058a8                __udivmodhi4
+                0x0000000000005910       0x28 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_udivmodhi4.o)
+                0x0000000000005910                __udivmodhi4
  .text.avr-libc
-                0x00000000000058d0       0x10 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eerd_byte.o)
-                0x00000000000058d0                eeprom_read_byte
+                0x0000000000005938       0x10 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eerd_byte.o)
+                0x0000000000005938                eeprom_read_byte
  .text.avr-libc
-                0x00000000000058e0        0xc /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eerd_word.o)
-                0x00000000000058e0                eeprom_read_word
+                0x0000000000005948        0xc /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eerd_word.o)
+                0x0000000000005948                eeprom_read_word
  .text.avr-libc
-                0x00000000000058ec       0x24 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eeupd_byte.o)
-                0x00000000000058ec                eeprom_update_byte
-                0x00000000000058ee                eeprom_update_r18
+                0x0000000000005954       0x24 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eeupd_byte.o)
+                0x0000000000005954                eeprom_update_byte
+                0x0000000000005956                eeprom_update_r18
  .text.avr-libc
-                0x0000000000005910       0x18 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eeupd_dword.o)
-                0x0000000000005910                eeprom_update_dword
-                0x0000000000005910                eeprom_update_float
+                0x0000000000005978       0x18 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eeupd_dword.o)
+                0x0000000000005978                eeprom_update_dword
+                0x0000000000005978                eeprom_update_float
  .text.avr-libc
-                0x0000000000005928        0xc /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eeupd_word.o)
-                0x0000000000005928                eeprom_update_word
+                0x0000000000005990        0xc /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eeupd_word.o)
+                0x0000000000005990                eeprom_update_word
  .text.avr-libc
-                0x0000000000005934       0x20 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eerd_block.o)
-                0x0000000000005934                eeprom_read_block
-                0x0000000000005938                eeprom_read_blraw
-                0x0000000000005954                . = ALIGN (0x2)
+                0x000000000000599c       0x20 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/libatmega32u2.a(eerd_block.o)
+                0x000000000000599c                eeprom_read_block
+                0x00000000000059a0                eeprom_read_blraw
+                0x00000000000059bc                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000005954        0x0 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_exit.o)
-                0x0000000000005954                exit
-                0x0000000000005954                _exit
+ .fini9         0x00000000000059bc        0x0 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_exit.o)
+                0x00000000000059bc                exit
+                0x00000000000059bc                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -2046,23 +2046,23 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000005954        0x4 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_exit.o)
+ .fini0         0x00000000000059bc        0x4 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_exit.o)
  *(.fini0)
  *(.hightext)
  *(.hightext*)
  *(.progmemx.*)
-                0x0000000000005958                . = ALIGN (0x2)
+                0x00000000000059c0                . = ALIGN (0x2)
  *(.jumptables)
  *(.jumptables*)
  .jumptables.gcc.process_action
-                0x0000000000005958       0x20 .build/obj_minim_default/common/action.o
+                0x00000000000059c0       0x20 .build/obj_minim_default/common/action.o
  .jumptables.gcc.is_tap_action
-                0x0000000000005978       0x1c .build/obj_minim_default/common/action.o
+                0x00000000000059e0       0x1c .build/obj_minim_default/common/action.o
  .jumptables.gcc.USB_Device_ProcessControlRequest
-                0x0000000000005994       0x14 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
-                0x00000000000059a8                _etext = .
+                0x00000000000059fc       0x14 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+                0x0000000000005a10                _etext = .
 
-.data           0x0000000000800100       0x3e load address 0x00000000000059a8
+.data           0x0000000000800100       0x3e load address 0x0000000000005a10
                 0x0000000000800100                PROVIDE (__data_start = .)
  *(.data)
  *(.data*)
@@ -2222,8 +2222,8 @@ END GROUP
                 0x00000000008001ff                USB_DeviceState
                 0x0000000000800200                USB_ControlRequest
                 0x0000000000800208                PROVIDE (__bss_end = .)
-                0x00000000000059a8                __data_load_start = LOADADDR (.data)
-                0x00000000000059e6                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000000000005a10                __data_load_start = LOADADDR (.data)
+                0x0000000000005a4e                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x0000000000800208        0x4
                 [!provide]                        PROVIDE (__noinit_start = .)
@@ -2604,88 +2604,88 @@ END GROUP
  .debug_frame   0x0000000000002254       0x3c .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
  .debug_frame   0x0000000000002290       0x2c .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
 
-.debug_str      0x0000000000000000     0x595e
+.debug_str      0x0000000000000000     0x594a
  *(.debug_str)
  .debug_str     0x0000000000000000      0x262 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/../../../../../../avr/lib/avr35/crtatmega32u2.o
  .debug_str     0x0000000000000262     0x1a38 .build/obj_minim_default/keyboards/minim/keymaps/default/keymap.o
                                        0x1ac4 (size before relaxing)
- .debug_str     0x0000000000001c9a      0x6ad .build/obj_minim_default/quantum/quantum.o
+ .debug_str     0x0000000000001c9a      0x699 .build/obj_minim_default/quantum/quantum.o
                                        0x1f12 (size before relaxing)
- .debug_str     0x0000000000002347      0x447 .build/obj_minim_default/quantum/keymap_common.o
+ .debug_str     0x0000000000002333      0x447 .build/obj_minim_default/quantum/keymap_common.o
                                        0x1fab (size before relaxing)
- .debug_str     0x000000000000278e       0x6a .build/obj_minim_default/quantum/keycode_config.o
+ .debug_str     0x000000000000277a       0x6a .build/obj_minim_default/quantum/keycode_config.o
                                         0x875 (size before relaxing)
- .debug_str     0x00000000000027f8      0x15e .build/obj_minim_default/quantum/matrix.o
+ .debug_str     0x00000000000027e4      0x15e .build/obj_minim_default/quantum/matrix.o
                                         0x5d2 (size before relaxing)
- .debug_str     0x0000000000002956       0x5d .build/obj_minim_default/quantum/debounce/sym_g.o
+ .debug_str     0x0000000000002942       0x5d .build/obj_minim_default/quantum/debounce/sym_g.o
                                         0x446 (size before relaxing)
- .debug_str     0x00000000000029b3       0x72 .build/obj_minim_default/quantum/process_keycode/process_space_cadet.o
+ .debug_str     0x000000000000299f       0x72 .build/obj_minim_default/quantum/process_keycode/process_space_cadet.o
                                        0x18ea (size before relaxing)
- .debug_str     0x0000000000002a25      0x13f .build/obj_minim_default/common/host.o
+ .debug_str     0x0000000000002a11      0x13f .build/obj_minim_default/common/host.o
                                         0x3cc (size before relaxing)
- .debug_str     0x0000000000002b64      0x1c9 .build/obj_minim_default/common/keyboard.o
+ .debug_str     0x0000000000002b50      0x1c9 .build/obj_minim_default/common/keyboard.o
                                         0x580 (size before relaxing)
- .debug_str     0x0000000000002d2d      0x3ea .build/obj_minim_default/common/action.o
+ .debug_str     0x0000000000002d19      0x3ea .build/obj_minim_default/common/action.o
                                        0x1529 (size before relaxing)
- .debug_str     0x0000000000003117       0xf7 .build/obj_minim_default/common/action_tapping.o
+ .debug_str     0x0000000000003103       0xf7 .build/obj_minim_default/common/action_tapping.o
                                         0xbf6 (size before relaxing)
- .debug_str     0x000000000000320e       0x74 .build/obj_minim_default/common/action_macro.o
+ .debug_str     0x00000000000031fa       0x74 .build/obj_minim_default/common/action_macro.o
                                         0x8eb (size before relaxing)
- .debug_str     0x0000000000003282       0xd3 .build/obj_minim_default/common/action_layer.o
+ .debug_str     0x000000000000326e       0xd3 .build/obj_minim_default/common/action_layer.o
                                         0x5ca (size before relaxing)
- .debug_str     0x0000000000003355      0x21a .build/obj_minim_default/common/action_util.o
+ .debug_str     0x0000000000003341      0x21a .build/obj_minim_default/common/action_util.o
                                         0x742 (size before relaxing)
- .debug_str     0x000000000000356f       0x39 .build/obj_minim_default/common/print.o
+ .debug_str     0x000000000000355b       0x39 .build/obj_minim_default/common/print.o
                                         0x1b0 (size before relaxing)
- .debug_str     0x00000000000035a8       0x18 .build/obj_minim_default/common/debug.o
+ .debug_str     0x0000000000003594       0x18 .build/obj_minim_default/common/debug.o
                                         0x1d0 (size before relaxing)
- .debug_str     0x00000000000035c0       0x4f .build/obj_minim_default/common/util.o
+ .debug_str     0x00000000000035ac       0x4f .build/obj_minim_default/common/util.o
                                         0x1dc (size before relaxing)
- .debug_str     0x000000000000360f      0x21b .build/obj_minim_default/common/eeconfig.o
+ .debug_str     0x00000000000035fb      0x21b .build/obj_minim_default/common/eeconfig.o
                                         0x445 (size before relaxing)
- .debug_str     0x000000000000382a       0x47 .build/obj_minim_default/common/report.o
+ .debug_str     0x0000000000003816       0x47 .build/obj_minim_default/common/report.o
                                         0x360 (size before relaxing)
- .debug_str     0x0000000000003871      0x2c0 .build/obj_minim_default/common/avr/suspend.o
+ .debug_str     0x000000000000385d      0x2c0 .build/obj_minim_default/common/avr/suspend.o
                                         0x599 (size before relaxing)
- .debug_str     0x0000000000003b31       0x84 .build/obj_minim_default/common/avr/timer.o
+ .debug_str     0x0000000000003b1d       0x84 .build/obj_minim_default/common/avr/timer.o
                                         0x231 (size before relaxing)
- .debug_str     0x0000000000003bb5       0x5b .build/obj_minim_default/common/avr/bootloader.o
+ .debug_str     0x0000000000003ba1       0x5b .build/obj_minim_default/common/avr/bootloader.o
                                         0x361 (size before relaxing)
- .debug_str     0x0000000000003c10       0x18 .build/obj_minim_default/common/magic.o
+ .debug_str     0x0000000000003bfc       0x18 .build/obj_minim_default/common/magic.o
                                         0x39d (size before relaxing)
- .debug_str     0x0000000000003c28       0x86 .build/obj_minim_default/common/mousekey.o
+ .debug_str     0x0000000000003c14       0x86 .build/obj_minim_default/common/mousekey.o
                                         0x429 (size before relaxing)
- .debug_str     0x0000000000003cae      0x141 .build/obj_minim_default/common/command.o
+ .debug_str     0x0000000000003c9a      0x141 .build/obj_minim_default/common/command.o
                                         0xbcb (size before relaxing)
- .debug_str     0x0000000000003def      0x5f1 .build/obj_minim_default/lufa.o
+ .debug_str     0x0000000000003ddb      0x5f1 .build/obj_minim_default/lufa.o
                                         0xda0 (size before relaxing)
- .debug_str     0x00000000000043e0      0x70f .build/obj_minim_default/usb_descriptor.o
+ .debug_str     0x00000000000043cc      0x70f .build/obj_minim_default/usb_descriptor.o
                                         0xac5 (size before relaxing)
- .debug_str     0x0000000000004aef       0x58 .build/obj_minim_default/outputselect.o
+ .debug_str     0x0000000000004adb       0x58 .build/obj_minim_default/outputselect.o
                                         0x4ba (size before relaxing)
- .debug_str     0x0000000000004b47       0x5e .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
+ .debug_str     0x0000000000004b33       0x5e .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Device_AVR8.o
                                         0x2c4 (size before relaxing)
- .debug_str     0x0000000000004ba5      0x4a3 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
+ .debug_str     0x0000000000004b91      0x4a3 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/EndpointStream_AVR8.o
                                         0x8b8 (size before relaxing)
- .debug_str     0x0000000000005048      0x20d .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
+ .debug_str     0x0000000000005034      0x20d .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/Endpoint_AVR8.o
                                         0x678 (size before relaxing)
- .debug_str     0x0000000000005255      0x14c .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
+ .debug_str     0x0000000000005241      0x14c .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBController_AVR8.o
                                         0x573 (size before relaxing)
- .debug_str     0x00000000000053a1       0xf9 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
+ .debug_str     0x000000000000538d       0xf9 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/AVR8/USBInterrupt_AVR8.o
                                         0x615 (size before relaxing)
- .debug_str     0x000000000000549a      0x3fa .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
+ .debug_str     0x0000000000005486      0x3fa .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/DeviceStandardReq.o
                                         0x9a9 (size before relaxing)
- .debug_str     0x0000000000005894       0x45 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
+ .debug_str     0x0000000000005880       0x45 .build/obj_minim_default/lib/lufa/LUFA/Drivers/USB/Core/USBTask.o
                                         0x3cb (size before relaxing)
- .debug_str     0x00000000000058d9       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_mulqi3.o)
- .debug_str     0x000000000000595e       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_mulhi3.o)
- .debug_str     0x000000000000595e       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_udivmodqi4.o)
- .debug_str     0x000000000000595e       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_divmodhi4.o)
- .debug_str     0x000000000000595e       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_exit.o)
- .debug_str     0x000000000000595e       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_tablejump2.o)
- .debug_str     0x000000000000595e       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_copy_data.o)
- .debug_str     0x000000000000595e       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_clear_bss.o)
- .debug_str     0x000000000000595e       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_udivmodhi4.o)
+ .debug_str     0x00000000000058c5       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_mulqi3.o)
+ .debug_str     0x000000000000594a       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_mulhi3.o)
+ .debug_str     0x000000000000594a       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_udivmodqi4.o)
+ .debug_str     0x000000000000594a       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_divmodhi4.o)
+ .debug_str     0x000000000000594a       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_exit.o)
+ .debug_str     0x000000000000594a       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_tablejump2.o)
+ .debug_str     0x000000000000594a       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_copy_data.o)
+ .debug_str     0x000000000000594a       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_clear_bss.o)
+ .debug_str     0x000000000000594a       0x85 /usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/avr35/libgcc.a(_udivmodhi4.o)
 
 .debug_loc      0x0000000000000000     0xb631
  *(.debug_loc)

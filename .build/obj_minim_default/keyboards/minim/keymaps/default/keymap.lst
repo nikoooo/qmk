@@ -44,64 +44,98 @@
   30:keyboards/minim/keymaps/default/keymap.c **** #define EQ RSFT(KC_0) // =
   31:keyboards/minim/keymaps/default/keymap.c **** 
   32:keyboards/minim/keymaps/default/keymap.c **** 
-  33:keyboards/minim/keymaps/default/keymap.c **** enum layer_names {
-  34:keyboards/minim/keymaps/default/keymap.c ****   _QWERTY = 0,
-  35:keyboards/minim/keymaps/default/keymap.c ****   _LOWER = 3,
-  36:keyboards/minim/keymaps/default/keymap.c ****   _RAISE = 4,
-  37:keyboards/minim/keymaps/default/keymap.c ****   _ADJUST = 16,
-  38:keyboards/minim/keymaps/default/keymap.c **** };
-  39:keyboards/minim/keymaps/default/keymap.c **** 
-  40:keyboards/minim/keymaps/default/keymap.c **** // Defines the keycodes used by our macros in process_record_user
-  41:keyboards/minim/keymaps/default/keymap.c **** enum custom_keycodes {
-  42:keyboards/minim/keymaps/default/keymap.c ****   QMKBEST = SAFE_RANGE,
-  43:keyboards/minim/keymaps/default/keymap.c ****   LOWER,
-  44:keyboards/minim/keymaps/default/keymap.c ****   RAISE,
-  45:keyboards/minim/keymaps/default/keymap.c ****   ADJUST,
-  46:keyboards/minim/keymaps/default/keymap.c **** };
-  47:keyboards/minim/keymaps/default/keymap.c **** 
-  48:keyboards/minim/keymaps/default/keymap.c **** const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
-  49:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
-  50:keyboards/minim/keymaps/default/keymap.c ****     KC_ESC,  KC_Q,     KC_W,    KC_E,    KC_R,  KC_T,    KC_Y,   KC_U,  KC_I,    KC_O,    KC_P,    
-  51:keyboards/minim/keymaps/default/keymap.c ****              KC_TAB,   KC_A,    KC_S,    KC_D,  KC_F,    KC_G,   KC_H,  KC_J,    KC_K,    KC_L,    
-  52:keyboards/minim/keymaps/default/keymap.c ****              KC_LSFT,  KC_Z,    KC_X,    KC_C,  KC_V,    KC_B,   KC_N,  KC_M,    KC_COMM, KC_DOT,  
-  53:keyboards/minim/keymaps/default/keymap.c ****              KC_LCTRL, KC_NO,    KC_LGUI, KC_LALT, MO(1), KC_SPC, MO(2), KC_RALT, KC_0,  MO(3)     
-  54:keyboards/minim/keymaps/default/keymap.c ****   ),
-  55:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
-  56:keyboards/minim/keymaps/default/keymap.c ****     KC_GRAVE,    KC_1,    KC_2,     KC_3,   KC_4,    KC_5,    KC_6,    KC_7,     KC_8,    KC_9,    
-  57:keyboards/minim/keymaps/default/keymap.c ****               MO(4), _______, _______,      EQ,  RCROCO, _______, LCBRACK,   LPARAN,  RPARAN, RCBRA
-  58:keyboards/minim/keymaps/default/keymap.c ****               _______, _______, _______, _______, _______, _______,  LCROCO,  LHBRACK, RHBRACK,  RC
-  59:keyboards/minim/keymaps/default/keymap.c ****               _______, _______, _______, _______, _______, _______, _______,  KC_RALT, _______, ___
-  60:keyboards/minim/keymaps/default/keymap.c ****   ),
-  61:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
-  62:keyboards/minim/keymaps/default/keymap.c ****     KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RP
-  63:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RI
-  64:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_EN
-  65:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
-  66:keyboards/minim/keymaps/default/keymap.c ****   ),
-  67:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
-  68:keyboards/minim/keymaps/default/keymap.c ****     _______, KC_MPRV, KC_MPLY, KC_MNXT, _______, _______, _______, _______, _______, _______, _____
-  69:keyboards/minim/keymaps/default/keymap.c ****              _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, _______, _______, _______, _____
-  70:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
-  71:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
-  72:keyboards/minim/keymaps/default/keymap.c ****   ),
-  73:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
-  74:keyboards/minim/keymaps/default/keymap.c ****     _______, _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
-  75:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RI
-  76:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_EN
-  77:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
-  78:keyboards/minim/keymaps/default/keymap.c ****   ),
-  79:keyboards/minim/keymaps/default/keymap.c **** };
-  80:keyboards/minim/keymaps/default/keymap.c **** 
-  81:keyboards/minim/keymaps/default/keymap.c **** void matrix_init_user(void) {
-  16               		.loc 1 81 29 view -0
+  33:keyboards/minim/keymaps/default/keymap.c **** #define SFT_1 RSFT(KC_1)
+  34:keyboards/minim/keymaps/default/keymap.c **** #define SFT_2 RSFT(KC_2)
+  35:keyboards/minim/keymaps/default/keymap.c **** #define SFT_3 RSFT(KC_3)
+  36:keyboards/minim/keymaps/default/keymap.c **** #define SFT_4 RSFT(KC_4)
+  37:keyboards/minim/keymaps/default/keymap.c **** #define SFT_5 RSFT(KC_5)
+  38:keyboards/minim/keymaps/default/keymap.c **** #define SFT_6 RSFT(KC_6)
+  39:keyboards/minim/keymaps/default/keymap.c **** #define SFT_7 RSFT(KC_7)
+  40:keyboards/minim/keymaps/default/keymap.c **** #define SFT_8 RSFT(KC_8)
+  41:keyboards/minim/keymaps/default/keymap.c **** #define SFT_9 RSFT(KC_9)
+  42:keyboards/minim/keymaps/default/keymap.c **** #define SFT_0 RSFT(KC_0)
+  43:keyboards/minim/keymaps/default/keymap.c **** 
+  44:keyboards/minim/keymaps/default/keymap.c **** #define ALT_1 RALT(KC_1)
+  45:keyboards/minim/keymaps/default/keymap.c **** #define ALT_2 RALT(KC_2)
+  46:keyboards/minim/keymaps/default/keymap.c **** #define ALT_3 RALT(KC_3)
+  47:keyboards/minim/keymaps/default/keymap.c **** #define ALT_4 RALT(KC_4)
+  48:keyboards/minim/keymaps/default/keymap.c **** #define ALT_5 RALT(KC_5)
+  49:keyboards/minim/keymaps/default/keymap.c **** #define ALT_6 RALT(KC_6)
+  50:keyboards/minim/keymaps/default/keymap.c **** #define ALT_7 RALT(KC_7)
+  51:keyboards/minim/keymaps/default/keymap.c **** #define ALT_8 RALT(KC_8)
+  52:keyboards/minim/keymaps/default/keymap.c **** #define ALT_9 RALT(KC_9)
+  53:keyboards/minim/keymaps/default/keymap.c **** #define ALT_0 RALT(KC_0)
+  54:keyboards/minim/keymaps/default/keymap.c **** 
+  55:keyboards/minim/keymaps/default/keymap.c **** 
+  56:keyboards/minim/keymaps/default/keymap.c **** enum layer_names {
+  57:keyboards/minim/keymaps/default/keymap.c ****   _QWERTY = 0,
+  58:keyboards/minim/keymaps/default/keymap.c ****   _LOWER = 3,
+  59:keyboards/minim/keymaps/default/keymap.c ****   _RAISE = 4,
+  60:keyboards/minim/keymaps/default/keymap.c ****   _ADJUST = 16,
+  61:keyboards/minim/keymaps/default/keymap.c **** };
+  62:keyboards/minim/keymaps/default/keymap.c **** 
+  63:keyboards/minim/keymaps/default/keymap.c **** // Defines the keycodes used by our macros in process_record_user
+  64:keyboards/minim/keymaps/default/keymap.c **** enum custom_keycodes {
+  65:keyboards/minim/keymaps/default/keymap.c ****   QMKBEST = SAFE_RANGE,
+  66:keyboards/minim/keymaps/default/keymap.c ****   LOWER,
+  67:keyboards/minim/keymaps/default/keymap.c ****   RAISE,
+  68:keyboards/minim/keymaps/default/keymap.c ****   ADJUST,
+  69:keyboards/minim/keymaps/default/keymap.c **** };
+  70:keyboards/minim/keymaps/default/keymap.c **** 
+  71:keyboards/minim/keymaps/default/keymap.c **** const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
+  72:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
+  73:keyboards/minim/keymaps/default/keymap.c ****     KC_ESC,  KC_Q,     KC_W,    KC_E,    KC_R,  KC_T,    KC_Y,   KC_U,  KC_I,    KC_O,    KC_P,    
+  74:keyboards/minim/keymaps/default/keymap.c ****              KC_TAB,   KC_A,    KC_S,    KC_D,  KC_F,    KC_G,   KC_H,  KC_J,    KC_K,    KC_L,    
+  75:keyboards/minim/keymaps/default/keymap.c ****              KC_LSFT,  KC_Z,    KC_X,    KC_C,  KC_V,    KC_B,   KC_N,  KC_M,    KC_COMM, KC_DOT,  
+  76:keyboards/minim/keymaps/default/keymap.c ****              KC_LCTRL, KC_LGUI, KC_LALT, MO(1), MO(2),  KC_SPC,  MO(5), KC_RALT,  MO(4),  MO(3)    
+  77:keyboards/minim/keymaps/default/keymap.c ****   ),
+  78:keyboards/minim/keymaps/default/keymap.c ****   // MO(1)
+  79:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
+  80:keyboards/minim/keymaps/default/keymap.c ****     KC_GRAVE,    KC_1,    KC_2,     KC_3,   KC_4,    KC_5,    KC_6,    KC_7,     KC_8,    KC_9,    
+  81:keyboards/minim/keymaps/default/keymap.c ****               MO(4), _______, _______,      EQ,  RCROCO, _______, LCBRACK,   LPARAN,  RPARAN, RCBRA
+  82:keyboards/minim/keymaps/default/keymap.c ****               _______, _______, _______, _______, _______, _______,  LCROCO,  LHBRACK, RHBRACK,  RC
+  83:keyboards/minim/keymaps/default/keymap.c ****               _______, _______, _______, _______, _______, _______, _______,  KC_RALT, _______, ___
+  84:keyboards/minim/keymaps/default/keymap.c ****   ),
+  85:keyboards/minim/keymaps/default/keymap.c ****   // MO(2)
+  86:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
+  87:keyboards/minim/keymaps/default/keymap.c ****     KC_TILD, KC_EXLM, KC_AT,   KC_HASH, KC_DLR,  KC_PERC, KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RP
+  88:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, KC_LEFT, KC_DOWN, KC_UP,   KC_RI
+  89:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, KC_HOME, KC_PGDN, KC_PGUP, KC_EN
+  90:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
+  91:keyboards/minim/keymaps/default/keymap.c ****   ),
+  92:keyboards/minim/keymaps/default/keymap.c ****   // MO(3)
+  93:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
+  94:keyboards/minim/keymaps/default/keymap.c ****     _______, KC_MPRV, KC_MPLY, KC_MNXT, _______, _______, _______, _______, _______, _______, _____
+  95:keyboards/minim/keymaps/default/keymap.c ****              _______, KC_MUTE, KC_VOLD, KC_VOLU, _______, _______, _______, _______, _______, _____
+  96:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
+  97:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
+  98:keyboards/minim/keymaps/default/keymap.c ****   ),
+  99:keyboards/minim/keymaps/default/keymap.c ****   // MO(4)
+ 100:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
+ 101:keyboards/minim/keymaps/default/keymap.c ****     KC_NO,    KC_F1,    KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,   KC_F7,   KC_F8,   KC_F9,  KC_F
+ 102:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
+ 103:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
+ 104:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
+ 105:keyboards/minim/keymaps/default/keymap.c ****   ),
+ 106:keyboards/minim/keymaps/default/keymap.c ****   // MO(5)
+ 107:keyboards/minim/keymaps/default/keymap.c ****   LAYOUT(
+ 108:keyboards/minim/keymaps/default/keymap.c ****     KC_NO,    ALT_1,    ALT_2,   ALT_3,   ALT_4,   ALT_5,   ALT_6,   ALT_7,   ALT_8,   ALT_9,   ALT
+ 109:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
+ 110:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
+ 111:keyboards/minim/keymaps/default/keymap.c ****              _______, _______, _______, _______, _______, _______, _______, _______, _______, _____
+ 112:keyboards/minim/keymaps/default/keymap.c ****   ),
+ 113:keyboards/minim/keymaps/default/keymap.c **** };
+ 114:keyboards/minim/keymaps/default/keymap.c **** 
+ 115:keyboards/minim/keymaps/default/keymap.c **** void matrix_init_user(void) {
+  16               		.loc 1 115 29 view -0
   17               		.cfi_startproc
   18               	/* prologue: function */
   19               	/* frame size = 0 */
   20               	/* stack size = 0 */
   21               	.L__stack_usage = 0
-  82:keyboards/minim/keymaps/default/keymap.c **** 
-  83:keyboards/minim/keymaps/default/keymap.c **** }
-  22               		.loc 1 83 1 view .LVU1
+ 116:keyboards/minim/keymaps/default/keymap.c **** 
+ 117:keyboards/minim/keymaps/default/keymap.c **** }
+  22               		.loc 1 117 1 view .LVU1
   23               	/* epilogue start */
   24 0000 0895      		ret
   25               		.cfi_endproc
@@ -124,21 +158,21 @@
   46               	led_set_user:
   47               	.LVL0:
   48               	.LFB21:
-  84:keyboards/minim/keymaps/default/keymap.c **** 
-  85:keyboards/minim/keymaps/default/keymap.c **** void matrix_scan_user(void) {
-  86:keyboards/minim/keymaps/default/keymap.c **** 
-  87:keyboards/minim/keymaps/default/keymap.c **** }
-  88:keyboards/minim/keymaps/default/keymap.c **** 
-  89:keyboards/minim/keymaps/default/keymap.c **** void led_set_user(uint8_t usb_led) {
-  49               		.loc 1 89 36 view -0
+ 118:keyboards/minim/keymaps/default/keymap.c **** 
+ 119:keyboards/minim/keymaps/default/keymap.c **** void matrix_scan_user(void) {
+ 120:keyboards/minim/keymaps/default/keymap.c **** 
+ 121:keyboards/minim/keymaps/default/keymap.c **** }
+ 122:keyboards/minim/keymaps/default/keymap.c **** 
+ 123:keyboards/minim/keymaps/default/keymap.c **** void led_set_user(uint8_t usb_led) {
+  49               		.loc 1 123 36 view -0
   50               		.cfi_startproc
   51               	/* prologue: function */
   52               	/* frame size = 0 */
   53               	/* stack size = 0 */
   54               	.L__stack_usage = 0
-  90:keyboards/minim/keymaps/default/keymap.c **** 
-  91:keyboards/minim/keymaps/default/keymap.c **** }
-  55               		.loc 1 91 1 view .LVU3
+ 124:keyboards/minim/keymaps/default/keymap.c **** 
+ 125:keyboards/minim/keymaps/default/keymap.c **** }
+  55               		.loc 1 125 1 view .LVU3
   56               	/* epilogue start */
   57 0000 0895      		ret
   58               		.cfi_endproc
@@ -188,14 +222,14 @@
  105 004e 0000      		.word	0
  106 0050 0000      		.word	0
  107 0052 E000      		.word	224
- 108 0054 0000      		.word	0
- 109 0056 E300      		.word	227
- 110 0058 E200      		.word	226
- 111 005a 0151      		.word	20737
+ 108 0054 E300      		.word	227
+ 109 0056 E200      		.word	226
+ 110 0058 0151      		.word	20737
+ 111 005a 0251      		.word	20738
  112 005c 2C00      		.word	44
- 113 005e 0251      		.word	20738
+ 113 005e 0551      		.word	20741
  114 0060 E600      		.word	230
- 115 0062 2700      		.word	39
+ 115 0062 0451      		.word	20740
  116 0064 0351      		.word	20739
  117 0066 0000      		.word	0
  118 0068 3500      		.word	53
@@ -354,19 +388,19 @@
  271 019a 0100      		.word	1
  272 019c 0100      		.word	1
  273 019e 0000      		.word	0
- 274 01a0 0100      		.word	1
- 275 01a2 0100      		.word	1
- 276 01a4 0100      		.word	1
- 277 01a6 0100      		.word	1
- 278 01a8 0100      		.word	1
- 279 01aa 0100      		.word	1
- 280 01ac 0100      		.word	1
- 281 01ae 0100      		.word	1
- 282 01b0 0100      		.word	1
- 283 01b2 0100      		.word	1
- 284 01b4 0100      		.word	1
- 285 01b6 0100      		.word	1
- 286 01b8 0100      		.word	1
+ 274 01a0 0000      		.word	0
+ 275 01a2 3A00      		.word	58
+ 276 01a4 3B00      		.word	59
+ 277 01a6 3C00      		.word	60
+ 278 01a8 3D00      		.word	61
+ 279 01aa 3E00      		.word	62
+ 280 01ac 3F00      		.word	63
+ 281 01ae 4000      		.word	64
+ 282 01b0 4100      		.word	65
+ 283 01b2 4200      		.word	66
+ 284 01b4 4300      		.word	67
+ 285 01b6 4400      		.word	68
+ 286 01b8 4500      		.word	69
  287 01ba 0000      		.word	0
  288 01bc 0100      		.word	1
  289 01be 0100      		.word	1
@@ -374,10 +408,10 @@
  291 01c2 0100      		.word	1
  292 01c4 0100      		.word	1
  293 01c6 0100      		.word	1
- 294 01c8 5000      		.word	80
- 295 01ca 5100      		.word	81
- 296 01cc 5200      		.word	82
- 297 01ce 4F00      		.word	79
+ 294 01c8 0100      		.word	1
+ 295 01ca 0100      		.word	1
+ 296 01cc 0100      		.word	1
+ 297 01ce 0100      		.word	1
  298 01d0 0100      		.word	1
  299 01d2 0100      		.word	1
  300 01d4 0000      		.word	0
@@ -387,10 +421,10 @@
  304 01dc 0100      		.word	1
  305 01de 0100      		.word	1
  306 01e0 0100      		.word	1
- 307 01e2 4A00      		.word	74
- 308 01e4 4E00      		.word	78
- 309 01e6 4B00      		.word	75
- 310 01e8 4D00      		.word	77
+ 307 01e2 0100      		.word	1
+ 308 01e4 0100      		.word	1
+ 309 01e6 0100      		.word	1
+ 310 01e8 0100      		.word	1
  311 01ea 0100      		.word	1
  312 01ec 0100      		.word	1
  313 01ee 0000      		.word	0
@@ -406,34 +440,86 @@
  323 0202 0100      		.word	1
  324 0204 0100      		.word	1
  325 0206 0000      		.word	0
- 326               		.text
- 327               	.Letext0:
- 328               		.file 2 "/usr/local/Cellar/avr-gcc@8/8.4.0/avr/include/stdint.h"
- 329               		.file 3 "/usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/include/stddef.h"
- 330               		.file 4 "tmk_core/common/keycode.h"
- 331               		.file 5 "tmk_core/common/report.h"
- 332               		.file 6 "tmk_core/common/action.h"
- 333               		.file 7 "tmk_core/common/host.h"
- 334               		.file 8 "tmk_core/common/avr/xprintf.h"
- 335               		.file 9 "tmk_core/common/debug.h"
- 336               		.file 10 "quantum/keycode_config.h"
- 337               		.file 11 "quantum/quantum_keycodes.h"
- 338               		.file 12 "quantum/keymap.h"
- 339               		.file 13 "tmk_core/common/action_layer.h"
- 340               		.file 14 "tmk_core/common/timer.h"
- 341               		.file 15 "tmk_core/common/action_util.h"
- 342               		.file 16 "/usr/local/Cellar/avr-gcc@8/8.4.0/avr/include/stdlib.h"
- 343               		.file 17 "quantum/quantum.h"
+ 326 0208 0000      		.word	0
+ 327 020a 1E14      		.word	5150
+ 328 020c 1F14      		.word	5151
+ 329 020e 2014      		.word	5152
+ 330 0210 2114      		.word	5153
+ 331 0212 2214      		.word	5154
+ 332 0214 2314      		.word	5155
+ 333 0216 2414      		.word	5156
+ 334 0218 2514      		.word	5157
+ 335 021a 2614      		.word	5158
+ 336 021c 2714      		.word	5159
+ 337 021e 2712      		.word	4647
+ 338 0220 0000      		.word	0
+ 339 0222 0000      		.word	0
+ 340 0224 0100      		.word	1
+ 341 0226 0100      		.word	1
+ 342 0228 0100      		.word	1
+ 343 022a 0100      		.word	1
+ 344 022c 0100      		.word	1
+ 345 022e 0100      		.word	1
+ 346 0230 0100      		.word	1
+ 347 0232 0100      		.word	1
+ 348 0234 0100      		.word	1
+ 349 0236 0100      		.word	1
+ 350 0238 0100      		.word	1
+ 351 023a 0100      		.word	1
+ 352 023c 0000      		.word	0
+ 353 023e 0100      		.word	1
+ 354 0240 0100      		.word	1
+ 355 0242 0100      		.word	1
+ 356 0244 0100      		.word	1
+ 357 0246 0100      		.word	1
+ 358 0248 0100      		.word	1
+ 359 024a 0100      		.word	1
+ 360 024c 0100      		.word	1
+ 361 024e 0100      		.word	1
+ 362 0250 0100      		.word	1
+ 363 0252 0100      		.word	1
+ 364 0254 0100      		.word	1
+ 365 0256 0000      		.word	0
+ 366 0258 0000      		.word	0
+ 367 025a 0100      		.word	1
+ 368 025c 0100      		.word	1
+ 369 025e 0100      		.word	1
+ 370 0260 0100      		.word	1
+ 371 0262 0100      		.word	1
+ 372 0264 0100      		.word	1
+ 373 0266 0100      		.word	1
+ 374 0268 0100      		.word	1
+ 375 026a 0100      		.word	1
+ 376 026c 0100      		.word	1
+ 377 026e 0000      		.word	0
+ 378               		.text
+ 379               	.Letext0:
+ 380               		.file 2 "/usr/local/Cellar/avr-gcc@8/8.4.0/avr/include/stdint.h"
+ 381               		.file 3 "/usr/local/Cellar/avr-gcc@8/8.4.0/lib/avr-gcc/8/gcc/avr/8.4.0/include/stddef.h"
+ 382               		.file 4 "tmk_core/common/keycode.h"
+ 383               		.file 5 "tmk_core/common/report.h"
+ 384               		.file 6 "tmk_core/common/action.h"
+ 385               		.file 7 "tmk_core/common/host.h"
+ 386               		.file 8 "tmk_core/common/avr/xprintf.h"
+ 387               		.file 9 "tmk_core/common/debug.h"
+ 388               		.file 10 "quantum/keycode_config.h"
+ 389               		.file 11 "quantum/quantum_keycodes.h"
+ 390               		.file 12 "quantum/keymap.h"
+ 391               		.file 13 "tmk_core/common/action_layer.h"
+ 392               		.file 14 "tmk_core/common/timer.h"
+ 393               		.file 15 "tmk_core/common/action_util.h"
+ 394               		.file 16 "/usr/local/Cellar/avr-gcc@8/8.4.0/avr/include/stdlib.h"
+ 395               		.file 17 "quantum/quantum.h"
 DEFINED SYMBOLS
                             *ABS*:0000000000000000 keymap.c
-/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccl4NGGo.s:2      *ABS*:000000000000003e __SP_H__
-/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccl4NGGo.s:3      *ABS*:000000000000003d __SP_L__
-/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccl4NGGo.s:4      *ABS*:000000000000003f __SREG__
-/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccl4NGGo.s:5      *ABS*:0000000000000000 __tmp_reg__
-/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccl4NGGo.s:6      *ABS*:0000000000000001 __zero_reg__
-/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccl4NGGo.s:13     .text.matrix_init_user:0000000000000000 matrix_init_user
-/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccl4NGGo.s:31     .text.matrix_scan_user:0000000000000000 matrix_scan_user
-/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccl4NGGo.s:46     .text.led_set_user:0000000000000000 led_set_user
-/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccl4NGGo.s:65     .progmem.data.keymaps:0000000000000000 keymaps
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQuoGWI.s:2      *ABS*:000000000000003e __SP_H__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQuoGWI.s:3      *ABS*:000000000000003d __SP_L__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQuoGWI.s:4      *ABS*:000000000000003f __SREG__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQuoGWI.s:5      *ABS*:0000000000000000 __tmp_reg__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQuoGWI.s:6      *ABS*:0000000000000001 __zero_reg__
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQuoGWI.s:13     .text.matrix_init_user:0000000000000000 matrix_init_user
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQuoGWI.s:31     .text.matrix_scan_user:0000000000000000 matrix_scan_user
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQuoGWI.s:46     .text.led_set_user:0000000000000000 led_set_user
+/var/folders/hg/m293bnw975q820z9tg0f9gdw0000gn/T//ccQuoGWI.s:65     .progmem.data.keymaps:0000000000000000 keymaps
 
 NO UNDEFINED SYMBOLS
